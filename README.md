@@ -13,7 +13,9 @@ O **tabelão** não é nada mais que a implementação do [algoritmo Round-robin
 
 ## O que o Tabelão quer ser no futuro?
 O objetivo é que o **Tabelão** evolua de uma api de tabelamento de campeonatos para um estudo sobre agendamento inteligente, priorizando otimização de viagens.
-Para explicar, vai um exemplo. Hoje, no Brasileirão, por exemplo, um time como o Fortaleza, por exemplo, precisa fazer quatro viagens por ano ao Rio de Janeiro, para enfrentar os quatro times da capital carioca (Flamengo, vasco, Fluminense e Botafogo). Num cenário ideal (o que não ocorre por *n* motivos no futebol brasileiro), o Fortaleza viajaria uma vez ao Rio, para jogar contra os quatro cariocas de uma vez; ou no máximo duas vezes, fazendo dois jogos em cada viagem e poupando jogadores, dinheiro e horas de vôo.
+Para explicar, vai um exemplo. 
+
+Hoje, no Brasileirão, por exemplo, um time como o Fortaleza, precisa fazer quatro viagens por ano ao Rio de Janeiro, para enfrentar os quatro times da capital carioca (Flamengo, Vasco, Fluminense e Botafogo). Num cenário ideal (o que não ocorre por *n* motivos no futebol brasileiro), o Fortaleza viajaria uma vez ao Rio, para jogar contra os quatro cariocas de uma vez; ou no máximo duas vezes, fazendo dois jogos em cada viagem e poupando jogadores, dinheiro e horas de vôo.
 
 Um exemplo é a NBA, onde um time como o New York Knicks, por exemplo, ao viajar para a Califórnia - do outro lado dos EUA - joga em sequência contra Lakers, Clippers, Warriors e Kings, transformando quatro viagens maçantes em uma só.
 
