@@ -1,0 +1,52 @@
+meta {
+  name: TURNO_UNICO_DENTRO_DO_GRUPO
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:8080/campeonato/gerar
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+      "nomeCampeonato": "Copa do Mundo FIFA 2022",
+      "tipoTabela": "TURNO_UNICO_DENTRO_DO_GRUPO",
+      "grupos": [
+          {
+              "nomeGrupo": "Grupo A",
+              "equipes": ["Qatar", "Equador", "Senegal", "Países Baixos"]
+          },
+          {
+              "nomeGrupo": "Grupo B",
+              "equipes": ["Inglaterra", "Irã", "Estados Unidos", "País de Gales"]
+          },
+          {
+              "nomeGrupo": "Grupo C",
+              "equipes": ["Argentina", "México", "Polônia", "Arábia Saudita"]
+          },
+          {
+              "nomeGrupo": "Grupo D",
+              "equipes": ["França", "Austrália", "Dinamarca", "Tunísia"]
+          },
+          {
+              "nomeGrupo": "Grupo E",
+              "equipes": ["Espanha", "Costa Rica", "Alemanha", "Japão"]
+          },
+          {
+              "nomeGrupo": "Grupo F",
+              "equipes": ["Bélgica", "Canadá", "Marrocos", "Croácia"]
+          },
+          {
+              "nomeGrupo": "Grupo G",
+              "equipes": ["Brasil", "Sérvia", "Suíça", "Camarões"]
+          },
+          {
+              "nomeGrupo": "Grupo H",
+              "equipes": ["Portugal", "Uruguai", "Coreia do Sul", "Gana"]
+          }
+      ]
+  }
+}
