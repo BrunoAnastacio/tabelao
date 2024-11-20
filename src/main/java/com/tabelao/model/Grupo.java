@@ -1,4 +1,4 @@
-package com.tabelao.gerador.model;
+package com.tabelao.model;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,12 +21,23 @@ public class Grupo {
 
     }
 
+    public Grupo(String nomeGrupo) {
+        this.nomeGrupo = nomeGrupo;
+    }
+
     public int getSize(){
         return equipes.size();
     }
 
     public void add(Equipe equipe){
         equipes.add(equipe);
+    }
+
+    public void addOrOverwrite(Equipe equipe){
+        if(equipes.contains(equipe)){
+            equipes.add(equipe.getId(),equipe);
+        }
+        else equipes.add(equipe);
     }
 
     public void concatenarEquipesDeOutroGrupo(List<Equipe> equipes){

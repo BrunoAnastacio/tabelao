@@ -1,0 +1,36 @@
+meta {
+  name: SORTEAR GRUPOS
+  type: http
+  seq: 6
+}
+
+post {
+  url: http://localhost:8080/campeonato/sortear
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "grupos": [
+      {
+        "nomeGrupo": "unico",
+        "equipes": [
+          "Botafogo",
+          "Santos",
+          "Cruzeiro",
+          "Fluminense",
+          "Palmeiras",
+          "Bragantino",
+          "Atlético-MG",
+          "Goiás",
+          "Internacional",
+          "Portuguesa",
+          "Juventude",
+          "São Paulo"
+        ]
+      }
+    ],
+    "qtdeGrupos": 3
+  }
+}

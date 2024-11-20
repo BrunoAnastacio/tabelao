@@ -1,4 +1,4 @@
-package com.tabelao.gerador.algoritmos;
+package com.tabelao.util.algoritmos;
 
 public class SmartScheduler {
 
@@ -34,5 +34,5 @@ public class SmartScheduler {
         // Possíveis problemas:
             // Diferença de tamanho entre clusteres: se for muito grande (ex cluster 5 x cluster 2), pode atrapanhar
             // Nem sempre é viável submeter um time a 7 jogos fora de casa de uma vez
-    
+
 }

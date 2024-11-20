@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.tabelao</groupId>
 	<artifactId>gerador</artifactId>
-	<version>1.0.0</version>
+	<version>2.0.0</version>
 	<name>gerador</name>
 	<description>Gerador de tabelas para torneios</description>
 	<url/>

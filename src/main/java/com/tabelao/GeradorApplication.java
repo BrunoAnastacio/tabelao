@@ -1,4 +1,4 @@
-package com.tabelao.gerador;
+package com.tabelao;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

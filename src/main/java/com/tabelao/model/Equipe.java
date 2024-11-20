@@ -1,4 +1,4 @@
-package com.tabelao.gerador.model;
+package com.tabelao.model;
 
 public class Equipe {
 
@@ -19,6 +19,9 @@ public class Equipe {
         this.cluster = cluster;
     }
 
+    public Equipe(){
+
+    }
     public Equipe(String nome) {
         this.id = 0;
         this.nome = nome;

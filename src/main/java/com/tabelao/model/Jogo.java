@@ -1,4 +1,4 @@
-package com.tabelao.gerador.model;
+package com.tabelao.model;
 
 import java.util.Date;
 

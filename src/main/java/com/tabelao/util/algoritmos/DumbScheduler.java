@@ -1,10 +1,6 @@
-package com.tabelao.gerador.algoritmos;
+package com.tabelao.util.algoritmos;
 
-import com.tabelao.gerador.model.Jogo;
-import com.tabelao.gerador.model.Tabela;
-
-import java.util.Date;
-import java.util.List;
+import com.tabelao.model.Tabela;
 
 
 public class DumbScheduler {

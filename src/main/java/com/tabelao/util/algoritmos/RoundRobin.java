@@ -1,9 +1,9 @@
-package com.tabelao.gerador.algoritmos;
+package com.tabelao.util.algoritmos;
 
-import com.tabelao.gerador.model.Equipe;
-import com.tabelao.gerador.model.Grupo;
-import com.tabelao.gerador.model.Jogo;
-import com.tabelao.gerador.model.Rodada;
+import com.tabelao.model.Equipe;
+import com.tabelao.model.Grupo;
+import com.tabelao.model.Jogo;
+import com.tabelao.model.Rodada;
 
 import java.util.ArrayList;
 import java.util.List;

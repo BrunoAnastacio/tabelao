@@ -1,4 +1,4 @@
-package com.tabelao.gerador.enums;
+package com.tabelao.util.enums;
 
 public enum TiposDeTabela {
     TURNO_UNICO_DENTRO_DO_GRUPO(1),
