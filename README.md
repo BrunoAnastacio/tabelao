@@ -19,6 +19,8 @@ Hoje, no Brasileirão, por exemplo, um time como o Fortaleza, precisa fazer quat
 
 Um exemplo é a NBA, onde um time como o New York Knicks, por exemplo, ao viajar para a Califórnia - do outro lado dos EUA - joga em sequência contra Lakers, Clippers, Warriors e Kings, transformando quatro viagens maçantes em uma só.
 
+*Disclaimer: a distância entre os times é apenas um dos fatores de complexidade do calendario da NBA. Disponibilidade das arenas, jogos comprados pelas TVs para exibicao em rede nacional e datas comemorativas são apenas mais algumas "peças" que compõem esse quebra cabeça, como explica [esse post do blog Bola Presa] (https://bolapresa.com.br/o-jogo-do-calendario-da-nba/).
+
 Desta forma, o **Tabelão** quer ser uma API que recebe um grupo de times e outras informações adicionais (como coordenadas, país/estado-sede ou horas de viagem até seus adversários) e devolve todo o agendamento de uma temporada, aproveitando ao máximo as viagens longas, reduzindo horas de traslado.
 
 Creio que esse estudo pode ser útil, por exemplo, para projetos futuros que abordem problemas mais "reais", recorrentes, como roteamento de entregas, por exemplo.
