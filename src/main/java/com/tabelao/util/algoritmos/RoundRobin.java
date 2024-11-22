@@ -14,12 +14,12 @@ public class RoundRobin {
     private static Equipe visitante;
     private static Jogo jogo = new Jogo();
 
-    public static List<Rodada> gerarRodadas(Grupo grupo, boolean inverterMando){
+    public static List<Rodada> gerarRodadas(Grupo grupo, boolean inverterMando, int qtdeRodadasCriadas){
         tratarGrupoImpar(grupo);
         int numTimes = grupo.getSize();
         List<Rodada> rodadas = new ArrayList<>(); //cria lista de rodadas
         for (int r = 0; r < numTimes -1; r++ ){
-            Rodada rodada = new Rodada( r+1 ); //cria uma rodada com sua lista de jogos
+            Rodada rodada = new Rodada( r+1+qtdeRodadasCriadas ); //cria uma rodada com sua lista de jogos
             for (int i = 0; i < numTimes/2; i++ ){
                 if (inverterMando) {
                     visitante = grupo.getEquipe(i);

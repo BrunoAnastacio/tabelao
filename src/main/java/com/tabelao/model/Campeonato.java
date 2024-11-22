@@ -12,6 +12,7 @@ import static java.lang.Math.random;
 
 public class Campeonato {
     private String nomeCampeonato;
+    private List<Equipe> equipes;
     private List<Grupo> grupos;
     private List<Rodada> rodadas;
     private Tabela tabela;
@@ -20,22 +21,21 @@ public class Campeonato {
     private int qtdeTurnosDentro;
     private int qtdeTurnosFora;
 
-    //-----outros metodos
-    //sortearGrupos()
-    //
-
-
+    //CONSTRUTORES
     public Campeonato(){
         this.tabela = new Tabela();
         this.grupos = new ArrayList<>();
     }
 
-    public Campeonato(String nomeCampeonato, List<Grupo> grupos, int qtdeGrupos, int qtdeTurnosDentro, int qtdeTurnosFora){
+    public Campeonato(String nomeCampeonato, List<Equipe> equipes, int qtdeGrupos, int qtdeTurnosDentro, int qtdeTurnosFora){
         this.nomeCampeonato = nomeCampeonato;
-        this.grupos = grupos; //verificar se funciona
         this.qtdeGrupos = qtdeGrupos;
         this.qtdeTurnosDentro = qtdeTurnosDentro;
         this.qtdeTurnosFora = qtdeTurnosFora;
+        this.equipes = equipes;
+        this.tabela = new Tabela();
+        this.grupos = new ArrayList<>();
+        this.rodadas = new ArrayList<>();
     }
 
     public Campeonato(String nomeCampeonato, List<Grupo> grupos){
@@ -46,7 +46,9 @@ public class Campeonato {
         this.grupos.addAll(grupos);
     }
 
-    public List<Grupo> criarGrupos(int qtdeGrupos){
+    //REGRAS DE NEGOCIO - REFATORAR?
+
+    public List<Grupo> criarGrupos(){
        List<Grupo> gruposCriados = new ArrayList<>();
         for (int i = 0; i < qtdeGrupos; i++){
             Grupo grupo = new Grupo("Grupo " + (i+1));
@@ -55,42 +57,65 @@ public class Campeonato {
         return gruposCriados;
     }
 
-    public Equipe escolherEquipe(List<Equipe> equipes){
+    public Equipe escolherEquipe(){
         return equipes.get((int) (random() * equipes.size()));
     }
 
+    public List<Grupo> sortearGrupos(){
 
-    public List<Grupo> sortearGrupos(List<Equipe> equipes, int qtdeGrupos){
-        //List<Grupo> grupo --> receber lista com um grupo contendo todos os times e (imagine os 16 times do paulistao)
-        //List<Grupo> gruposCriados --> receber lista com os grupos criados, porem vazios (imagine os grupos A, B, C, D, porem vazios)
-        //sortear aleatoriamente um time do grupo completo e colocar na primeira posição do primeiro grupo
-        //seguir essa logica até completar o primeiro grupo
-        //seguir essa logica até completar todos os grupos
-        //retornar a lista de grupos preenchidas
-
-        List<Grupo> gruposCriados = criarGrupos(qtdeGrupos);
+        List<Grupo> gruposCriados = criarGrupos();
         int tamanhoDeCadaGrupo = equipes.size()/qtdeGrupos;
-
-//        System.out.println("Numero de times passados: " + equipes.size());
-//        System.out.println("Numero de grupos solicitados: "+ qtdeGrupos);
-//        System.out.println(tamanhoDeCadaGrupo);
 
         if (tamanhoDeCadaGrupo >=3 ){
             for (Grupo grupoCriado:gruposCriados) {
                 for(int i=0; i < tamanhoDeCadaGrupo; i++){
-                    Equipe equipe = escolherEquipe(equipes);
+                    Equipe equipe = escolherEquipe();
                     grupoCriado.addOrOverwrite(equipe);
                     equipes.remove(equipe);
                 }
             }
         } else{
-            //erro de 'tamanho de cgrupo incondizente com sorteio'
-            // melhorar lancamento do erro
-            throw new RuntimeException("Numero de times incondizente com numero de grupos");
-
+            throw new RuntimeException("Numero de equipes precisa ser: 1) Um multiplo do numero de grupos; " +
+                    "2) Suficiente para preencher cada grupo com 3 equipes ou mais");
         }
+
+        grupos = gruposCriados;
+
         return gruposCriados;
     }
+
+    public List<Rodada> gerarTabela(){
+        gerarJogosDentroDoGrupo();
+        gerarJogosEntreGruposDiferentes();
+        return rodadas;
+    }
+
+
+    public void gerarJogosDentroDoGrupo(){
+        if (qtdeTurnosDentro > 0) {
+            for(int i = 0; i < qtdeTurnosDentro; i++){
+                for (Grupo grupo : grupos) {
+                    boolean inverterMando = (i % 2) == 1;
+                    rodadas.addAll(RoundRobin.gerarRodadas(grupo, inverterMando, rodadas.size()));
+                }
+            }
+        }
+    }
+
+    public void gerarJogosEntreGruposDiferentes(){
+        Grupo grupao = new Grupo();
+        if (qtdeTurnosFora >0) {
+            for(int i = 0; i < qtdeTurnosFora; i++) {
+                for(Grupo grupo :  grupos) {
+                    grupao.concatenarEquipesDeOutroGrupo(grupo.getEquipes());
+                    boolean inverterMando = (i % 2) == 1;
+                    rodadas.addAll(RoundRobin.gerarRodadas(grupao, inverterMando, rodadas.size()));
+                }
+            }
+        }
+    }
+
+//GETTERS E SETTERS
 
     public List<Grupo> getGrupos(){
         return grupos;
@@ -130,61 +155,6 @@ public class Campeonato {
 
     public void setTipoTabela(String tipoTabela) {
         this.tipoTabela = tipoTabela;
-    }
-
-    public Tabela gerarTabela(TiposDeTabela tipo, List <Grupo> grupos){ //passar tipos de tabela:
-        switch(tipo.getNumero()){
-            case 1:
-                for (Grupo grupo:grupos) {
-                    tabela.add(turnoUnicoDentroDoGrupo(grupo));
-                }
-                break;
-            case 2:
-                for (Grupo grupo:grupos) {
-                    tabela.add(turnoReturnoDentroDoGrupo(grupo));
-                }
-                break;
-            case 3:
-                Grupo grupaoUnico = new Grupo();
-                for (Grupo grupo:grupos){
-                    grupaoUnico.concatenarEquipesDeOutroGrupo(grupo.getEquipes());
-                }
-                tabela.add(turnoUnicoDentroDoGrupo(grupaoUnico));
-                break;
-            case 4:
-                Grupo grupaoTurnoReturno = new Grupo();
-                for (Grupo grupo:grupos){
-                    grupaoTurnoReturno.concatenarEquipesDeOutroGrupo(grupo.getEquipes());
-                }
-                for (Grupo grupo:grupos) {
-                    tabela.add(turnoReturnoDentroDoGrupo(grupo));
-                }
-                break;
-            case 5:
-                for (Grupo grupo:grupos) {
-                    tabela.add(turnoUnicoDentroDoGrupo(grupo));
-                }
-                Grupo grupaoTurnoReturnoII = new Grupo();
-                for (Grupo grupo:grupos){
-                    grupaoTurnoReturnoII.concatenarEquipesDeOutroGrupo(grupo.getEquipes());
-                }
-                tabela.add(turnoReturnoDentroDoGrupo(grupaoTurnoReturnoII));
-                break;
-        }
-
-        return tabela;
-    }
-
-    public List <Rodada> turnoUnicoDentroDoGrupo(Grupo grupo){
-        return RoundRobin.gerarRodadas(grupo, false);
-    }
-
-    public List <Rodada> turnoReturnoDentroDoGrupo(Grupo grupo){
-        List <Rodada> rodadas = RoundRobin.gerarRodadas(grupo, false);
-        List <Rodada> returno = RoundRobin.gerarRodadas(grupo, true);
-        rodadas.addAll(returno);
-        return rodadas;
-
     }
 
     @Override

@@ -1,0 +1,68 @@
+meta {
+  name: Grupo Unico
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:8080/campeonato/gerar
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "nomeCampeonato": "Torneio Brasil",
+    "equipes": [
+      {
+        "nome": "Sao Paulo",
+        "cidadeTime": "Sao Paulo",
+        "cluster": "A"
+      },
+      {
+        "nome": "Flamengo",
+        "cidadeTime": "Rio de Janeiro",
+        "cluster": "B"
+      },
+      {
+        "nome": "Atletico-MG",
+        "cidadeTime": "Belo Horizonte",
+        "cluster": "C"
+      },
+          {
+        "nome": "Internacional",
+        "cidadeTime": "Porto Alegre",
+        "cluster": "D"
+      },
+      {
+        "nome": "Cruzeiro",
+        "cidadeTime": "Belo Horizonte",
+        "cluster": "C"
+      },
+      {
+        "nome": "Corinthians",
+        "cidadeTime": "São Paulo",
+        "cluster": "A"
+      },
+          {
+        "nome": "Fortaleza",
+        "cidadeTime": "Fortaleza",
+        "cluster": "E"
+      },
+      {
+        "nome": "Vasco",
+        "cidadeTime": "Rio de Janeiro",
+        "cluster": "B"
+      }
+    ],
+    "sortear": true,
+    "qtdeGrupos": 1,
+    "turnosDentroDoGrupo": 2,
+    "turnosEntreGrupos": 0,
+    "tabelaOtimizada": false,
+    "maxJogosPorDia": 2,
+    "minDiasDescanso": 4,
+    "diaDeInicio": "2025-01-15" 
+  }
+  
+}

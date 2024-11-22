@@ -1,5 +1,7 @@
 package com.tabelao.model;
 
+import com.tabelao.dto.DtoEquipe;
+
 public class Equipe {
 
     private int id;
@@ -22,6 +24,16 @@ public class Equipe {
     public Equipe(){
 
     }
+
+    public Equipe(DtoEquipe dtoEquipe){
+        this.id = 0;
+        this.nome = dtoEquipe.nome();
+        this.cidade = dtoEquipe.cidadeTime();
+        this.coordenadaX = 0.0;
+        this.coordenadaY = 0.0;
+        this.cluster = dtoEquipe.cluster();
+    }
+
     public Equipe(String nome) {
         this.id = 0;
         this.nome = nome;

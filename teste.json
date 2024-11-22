@@ -1,0 +1,2129 @@
+{
+    "grupos": [
+      {
+        "equipes": [
+          {
+            "id": 0,
+            "nome": "São Paulo",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          {
+            "id": 0,
+            "nome": "Ponte Preta",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          {
+            "id": 0,
+            "nome": "Coritiba",
+            "cidade": "Curitiba",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          {
+            "id": 0,
+            "nome": "Atletico-MG",
+            "cidade": "Belo Horizonte",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          {
+            "id": 0,
+            "nome": "Flamengo",
+            "cidade": "Rio de Janeiro",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          {
+            "id": 0,
+            "nome": "Gremio",
+            "cidade": "Porto Alegre",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          {
+            "id": 0,
+            "nome": "Fortaleza",
+            "cidade": "Fortaleza",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          {
+            "id": 0,
+            "nome": "Sport",
+            "cidade": "Recife",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          }
+        ],
+        "nomeGrupo": "Grupo 1",
+        "size": 8
+      }
+    ],
+    "tabela": {
+      "listaRodadas": [
+        [
+          {
+            "numeroRodada": 1,
+            "jogos": [
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "São Paulo",
+                  "cidade": "São Paulo",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "A",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Sport",
+                  "cidade": "Recife",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "D",
+                  "grupo": null
+                },
+                "rodada": 1,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Ponte Preta",
+                  "cidade": "Campinas",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "A",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Fortaleza",
+                  "cidade": "Fortaleza",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "D",
+                  "grupo": null
+                },
+                "rodada": 1,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Coritiba",
+                  "cidade": "Curitiba",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "C",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Gremio",
+                  "cidade": "Porto Alegre",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "C",
+                  "grupo": null
+                },
+                "rodada": 1,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Atletico-MG",
+                  "cidade": "Belo Horizonte",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "B",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Flamengo",
+                  "cidade": "Rio de Janeiro",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "B",
+                  "grupo": null
+                },
+                "rodada": 1,
+                "data": null,
+                "local": null
+              }
+            ]
+          },
+          {
+            "numeroRodada": 2,
+            "jogos": [
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Fortaleza",
+                  "cidade": "Fortaleza",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "D",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "São Paulo",
+                  "cidade": "São Paulo",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "A",
+                  "grupo": null
+                },
+                "rodada": 2,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Gremio",
+                  "cidade": "Porto Alegre",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "C",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Sport",
+                  "cidade": "Recife",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "D",
+                  "grupo": null
+                },
+                "rodada": 2,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Flamengo",
+                  "cidade": "Rio de Janeiro",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "B",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Ponte Preta",
+                  "cidade": "Campinas",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "A",
+                  "grupo": null
+                },
+                "rodada": 2,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Atletico-MG",
+                  "cidade": "Belo Horizonte",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "B",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Coritiba",
+                  "cidade": "Curitiba",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "C",
+                  "grupo": null
+                },
+                "rodada": 2,
+                "data": null,
+                "local": null
+              }
+            ]
+          },
+          {
+            "numeroRodada": 3,
+            "jogos": [
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "São Paulo",
+                  "cidade": "São Paulo",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "A",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Gremio",
+                  "cidade": "Porto Alegre",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "C",
+                  "grupo": null
+                },
+                "rodada": 3,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Fortaleza",
+                  "cidade": "Fortaleza",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "D",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Flamengo",
+                  "cidade": "Rio de Janeiro",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "B",
+                  "grupo": null
+                },
+                "rodada": 3,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Sport",
+                  "cidade": "Recife",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "D",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Atletico-MG",
+                  "cidade": "Belo Horizonte",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "B",
+                  "grupo": null
+                },
+                "rodada": 3,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Ponte Preta",
+                  "cidade": "Campinas",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "A",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Coritiba",
+                  "cidade": "Curitiba",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "C",
+                  "grupo": null
+                },
+                "rodada": 3,
+                "data": null,
+                "local": null
+              }
+            ]
+          },
+          {
+            "numeroRodada": 4,
+            "jogos": [
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Flamengo",
+                  "cidade": "Rio de Janeiro",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "B",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "São Paulo",
+                  "cidade": "São Paulo",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "A",
+                  "grupo": null
+                },
+                "rodada": 4,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Atletico-MG",
+                  "cidade": "Belo Horizonte",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "B",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Gremio",
+                  "cidade": "Porto Alegre",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "C",
+                  "grupo": null
+                },
+                "rodada": 4,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Coritiba",
+                  "cidade": "Curitiba",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "C",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Fortaleza",
+                  "cidade": "Fortaleza",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "D",
+                  "grupo": null
+                },
+                "rodada": 4,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Ponte Preta",
+                  "cidade": "Campinas",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "A",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Sport",
+                  "cidade": "Recife",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "D",
+                  "grupo": null
+                },
+                "rodada": 4,
+                "data": null,
+                "local": null
+              }
+            ]
+          },
+          {
+            "numeroRodada": 5,
+            "jogos": [
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "São Paulo",
+                  "cidade": "São Paulo",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "A",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Atletico-MG",
+                  "cidade": "Belo Horizonte",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "B",
+                  "grupo": null
+                },
+                "rodada": 5,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Flamengo",
+                  "cidade": "Rio de Janeiro",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "B",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Coritiba",
+                  "cidade": "Curitiba",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "C",
+                  "grupo": null
+                },
+                "rodada": 5,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Gremio",
+                  "cidade": "Porto Alegre",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "C",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Ponte Preta",
+                  "cidade": "Campinas",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "A",
+                  "grupo": null
+                },
+                "rodada": 5,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Fortaleza",
+                  "cidade": "Fortaleza",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "D",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Sport",
+                  "cidade": "Recife",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "D",
+                  "grupo": null
+                },
+                "rodada": 5,
+                "data": null,
+                "local": null
+              }
+            ]
+          },
+          {
+            "numeroRodada": 6,
+            "jogos": [
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Coritiba",
+                  "cidade": "Curitiba",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "C",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "São Paulo",
+                  "cidade": "São Paulo",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "A",
+                  "grupo": null
+                },
+                "rodada": 6,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Ponte Preta",
+                  "cidade": "Campinas",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "A",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Atletico-MG",
+                  "cidade": "Belo Horizonte",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "B",
+                  "grupo": null
+                },
+                "rodada": 6,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Sport",
+                  "cidade": "Recife",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "D",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Flamengo",
+                  "cidade": "Rio de Janeiro",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "B",
+                  "grupo": null
+                },
+                "rodada": 6,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Fortaleza",
+                  "cidade": "Fortaleza",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "D",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Gremio",
+                  "cidade": "Porto Alegre",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "C",
+                  "grupo": null
+                },
+                "rodada": 6,
+                "data": null,
+                "local": null
+              }
+            ]
+          },
+          {
+            "numeroRodada": 7,
+            "jogos": [
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "São Paulo",
+                  "cidade": "São Paulo",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "A",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Ponte Preta",
+                  "cidade": "Campinas",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "A",
+                  "grupo": null
+                },
+                "rodada": 7,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Coritiba",
+                  "cidade": "Curitiba",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "C",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Sport",
+                  "cidade": "Recife",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "D",
+                  "grupo": null
+                },
+                "rodada": 7,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Atletico-MG",
+                  "cidade": "Belo Horizonte",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "B",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Fortaleza",
+                  "cidade": "Fortaleza",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "D",
+                  "grupo": null
+                },
+                "rodada": 7,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Flamengo",
+                  "cidade": "Rio de Janeiro",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "B",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Gremio",
+                  "cidade": "Porto Alegre",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "C",
+                  "grupo": null
+                },
+                "rodada": 7,
+                "data": null,
+                "local": null
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "numeroRodada": 1,
+            "jogos": [
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Sport",
+                  "cidade": "Recife",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "D",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "São Paulo",
+                  "cidade": "São Paulo",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "A",
+                  "grupo": null
+                },
+                "rodada": 1,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Fortaleza",
+                  "cidade": "Fortaleza",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "D",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Ponte Preta",
+                  "cidade": "Campinas",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "A",
+                  "grupo": null
+                },
+                "rodada": 1,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Gremio",
+                  "cidade": "Porto Alegre",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "C",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Coritiba",
+                  "cidade": "Curitiba",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "C",
+                  "grupo": null
+                },
+                "rodada": 1,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Flamengo",
+                  "cidade": "Rio de Janeiro",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "B",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Atletico-MG",
+                  "cidade": "Belo Horizonte",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "B",
+                  "grupo": null
+                },
+                "rodada": 1,
+                "data": null,
+                "local": null
+              }
+            ]
+          },
+          {
+            "numeroRodada": 2,
+            "jogos": [
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "São Paulo",
+                  "cidade": "São Paulo",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "A",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Fortaleza",
+                  "cidade": "Fortaleza",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "D",
+                  "grupo": null
+                },
+                "rodada": 2,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Sport",
+                  "cidade": "Recife",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "D",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Gremio",
+                  "cidade": "Porto Alegre",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "C",
+                  "grupo": null
+                },
+                "rodada": 2,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Ponte Preta",
+                  "cidade": "Campinas",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "A",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Flamengo",
+                  "cidade": "Rio de Janeiro",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "B",
+                  "grupo": null
+                },
+                "rodada": 2,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Coritiba",
+                  "cidade": "Curitiba",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "C",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Atletico-MG",
+                  "cidade": "Belo Horizonte",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "B",
+                  "grupo": null
+                },
+                "rodada": 2,
+                "data": null,
+                "local": null
+              }
+            ]
+          },
+          {
+            "numeroRodada": 3,
+            "jogos": [
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Gremio",
+                  "cidade": "Porto Alegre",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "C",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "São Paulo",
+                  "cidade": "São Paulo",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "A",
+                  "grupo": null
+                },
+                "rodada": 3,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Flamengo",
+                  "cidade": "Rio de Janeiro",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "B",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Fortaleza",
+                  "cidade": "Fortaleza",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "D",
+                  "grupo": null
+                },
+                "rodada": 3,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Atletico-MG",
+                  "cidade": "Belo Horizonte",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "B",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Sport",
+                  "cidade": "Recife",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "D",
+                  "grupo": null
+                },
+                "rodada": 3,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Coritiba",
+                  "cidade": "Curitiba",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "C",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Ponte Preta",
+                  "cidade": "Campinas",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "A",
+                  "grupo": null
+                },
+                "rodada": 3,
+                "data": null,
+                "local": null
+              }
+            ]
+          },
+          {
+            "numeroRodada": 4,
+            "jogos": [
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "São Paulo",
+                  "cidade": "São Paulo",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "A",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Flamengo",
+                  "cidade": "Rio de Janeiro",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "B",
+                  "grupo": null
+                },
+                "rodada": 4,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Gremio",
+                  "cidade": "Porto Alegre",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "C",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Atletico-MG",
+                  "cidade": "Belo Horizonte",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "B",
+                  "grupo": null
+                },
+                "rodada": 4,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Fortaleza",
+                  "cidade": "Fortaleza",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "D",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Coritiba",
+                  "cidade": "Curitiba",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "C",
+                  "grupo": null
+                },
+                "rodada": 4,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Sport",
+                  "cidade": "Recife",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "D",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Ponte Preta",
+                  "cidade": "Campinas",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "A",
+                  "grupo": null
+                },
+                "rodada": 4,
+                "data": null,
+                "local": null
+              }
+            ]
+          },
+          {
+            "numeroRodada": 5,
+            "jogos": [
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Atletico-MG",
+                  "cidade": "Belo Horizonte",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "B",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "São Paulo",
+                  "cidade": "São Paulo",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "A",
+                  "grupo": null
+                },
+                "rodada": 5,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Coritiba",
+                  "cidade": "Curitiba",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "C",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Flamengo",
+                  "cidade": "Rio de Janeiro",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "B",
+                  "grupo": null
+                },
+                "rodada": 5,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Ponte Preta",
+                  "cidade": "Campinas",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "A",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Gremio",
+                  "cidade": "Porto Alegre",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "C",
+                  "grupo": null
+                },
+                "rodada": 5,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Sport",
+                  "cidade": "Recife",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "D",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Fortaleza",
+                  "cidade": "Fortaleza",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "D",
+                  "grupo": null
+                },
+                "rodada": 5,
+                "data": null,
+                "local": null
+              }
+            ]
+          },
+          {
+            "numeroRodada": 6,
+            "jogos": [
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "São Paulo",
+                  "cidade": "São Paulo",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "A",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Coritiba",
+                  "cidade": "Curitiba",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "C",
+                  "grupo": null
+                },
+                "rodada": 6,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Atletico-MG",
+                  "cidade": "Belo Horizonte",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "B",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Ponte Preta",
+                  "cidade": "Campinas",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "A",
+                  "grupo": null
+                },
+                "rodada": 6,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Flamengo",
+                  "cidade": "Rio de Janeiro",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "B",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Sport",
+                  "cidade": "Recife",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "D",
+                  "grupo": null
+                },
+                "rodada": 6,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Gremio",
+                  "cidade": "Porto Alegre",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "C",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Fortaleza",
+                  "cidade": "Fortaleza",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "D",
+                  "grupo": null
+                },
+                "rodada": 6,
+                "data": null,
+                "local": null
+              }
+            ]
+          },
+          {
+            "numeroRodada": 7,
+            "jogos": [
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Ponte Preta",
+                  "cidade": "Campinas",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "A",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "São Paulo",
+                  "cidade": "São Paulo",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "A",
+                  "grupo": null
+                },
+                "rodada": 7,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Sport",
+                  "cidade": "Recife",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "D",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Coritiba",
+                  "cidade": "Curitiba",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "C",
+                  "grupo": null
+                },
+                "rodada": 7,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Fortaleza",
+                  "cidade": "Fortaleza",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "D",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Atletico-MG",
+                  "cidade": "Belo Horizonte",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "B",
+                  "grupo": null
+                },
+                "rodada": 7,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Gremio",
+                  "cidade": "Porto Alegre",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "C",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Flamengo",
+                  "cidade": "Rio de Janeiro",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "B",
+                  "grupo": null
+                },
+                "rodada": 7,
+                "data": null,
+                "local": null
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "numeroRodada": 1,
+            "jogos": [
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "São Paulo",
+                  "cidade": "São Paulo",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "A",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Sport",
+                  "cidade": "Recife",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "D",
+                  "grupo": null
+                },
+                "rodada": 1,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Ponte Preta",
+                  "cidade": "Campinas",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "A",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Fortaleza",
+                  "cidade": "Fortaleza",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "D",
+                  "grupo": null
+                },
+                "rodada": 1,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Coritiba",
+                  "cidade": "Curitiba",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "C",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Gremio",
+                  "cidade": "Porto Alegre",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "C",
+                  "grupo": null
+                },
+                "rodada": 1,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Atletico-MG",
+                  "cidade": "Belo Horizonte",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "B",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Flamengo",
+                  "cidade": "Rio de Janeiro",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "B",
+                  "grupo": null
+                },
+                "rodada": 1,
+                "data": null,
+                "local": null
+              }
+            ]
+          },
+          {
+            "numeroRodada": 2,
+            "jogos": [
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Fortaleza",
+                  "cidade": "Fortaleza",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "D",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "São Paulo",
+                  "cidade": "São Paulo",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "A",
+                  "grupo": null
+                },
+                "rodada": 2,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Gremio",
+                  "cidade": "Porto Alegre",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "C",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Sport",
+                  "cidade": "Recife",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "D",
+                  "grupo": null
+                },
+                "rodada": 2,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Flamengo",
+                  "cidade": "Rio de Janeiro",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "B",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Ponte Preta",
+                  "cidade": "Campinas",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "A",
+                  "grupo": null
+                },
+                "rodada": 2,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Atletico-MG",
+                  "cidade": "Belo Horizonte",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "B",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Coritiba",
+                  "cidade": "Curitiba",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "C",
+                  "grupo": null
+                },
+                "rodada": 2,
+                "data": null,
+                "local": null
+              }
+            ]
+          },
+          {
+            "numeroRodada": 3,
+            "jogos": [
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "São Paulo",
+                  "cidade": "São Paulo",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "A",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Gremio",
+                  "cidade": "Porto Alegre",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "C",
+                  "grupo": null
+                },
+                "rodada": 3,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Fortaleza",
+                  "cidade": "Fortaleza",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "D",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Flamengo",
+                  "cidade": "Rio de Janeiro",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "B",
+                  "grupo": null
+                },
+                "rodada": 3,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Sport",
+                  "cidade": "Recife",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "D",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Atletico-MG",
+                  "cidade": "Belo Horizonte",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "B",
+                  "grupo": null
+                },
+                "rodada": 3,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Ponte Preta",
+                  "cidade": "Campinas",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "A",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Coritiba",
+                  "cidade": "Curitiba",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "C",
+                  "grupo": null
+                },
+                "rodada": 3,
+                "data": null,
+                "local": null
+              }
+            ]
+          },
+          {
+            "numeroRodada": 4,
+            "jogos": [
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Flamengo",
+                  "cidade": "Rio de Janeiro",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "B",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "São Paulo",
+                  "cidade": "São Paulo",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "A",
+                  "grupo": null
+                },
+                "rodada": 4,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Atletico-MG",
+                  "cidade": "Belo Horizonte",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "B",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Gremio",
+                  "cidade": "Porto Alegre",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "C",
+                  "grupo": null
+                },
+                "rodada": 4,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Coritiba",
+                  "cidade": "Curitiba",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "C",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Fortaleza",
+                  "cidade": "Fortaleza",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "D",
+                  "grupo": null
+                },
+                "rodada": 4,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Ponte Preta",
+                  "cidade": "Campinas",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "A",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Sport",
+                  "cidade": "Recife",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "D",
+                  "grupo": null
+                },
+                "rodada": 4,
+                "data": null,
+                "local": null
+              }
+            ]
+          },
+          {
+            "numeroRodada": 5,
+            "jogos": [
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "São Paulo",
+                  "cidade": "São Paulo",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "A",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Atletico-MG",
+                  "cidade": "Belo Horizonte",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "B",
+                  "grupo": null
+                },
+                "rodada": 5,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Flamengo",
+                  "cidade": "Rio de Janeiro",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "B",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Coritiba",
+                  "cidade": "Curitiba",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "C",
+                  "grupo": null
+                },
+                "rodada": 5,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Gremio",
+                  "cidade": "Porto Alegre",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "C",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Ponte Preta",
+                  "cidade": "Campinas",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "A",
+                  "grupo": null
+                },
+                "rodada": 5,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Fortaleza",
+                  "cidade": "Fortaleza",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "D",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Sport",
+                  "cidade": "Recife",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "D",
+                  "grupo": null
+                },
+                "rodada": 5,
+                "data": null,
+                "local": null
+              }
+            ]
+          },
+          {
+            "numeroRodada": 6,
+            "jogos": [
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Coritiba",
+                  "cidade": "Curitiba",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "C",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "São Paulo",
+                  "cidade": "São Paulo",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "A",
+                  "grupo": null
+                },
+                "rodada": 6,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Ponte Preta",
+                  "cidade": "Campinas",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "A",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Atletico-MG",
+                  "cidade": "Belo Horizonte",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "B",
+                  "grupo": null
+                },
+                "rodada": 6,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Sport",
+                  "cidade": "Recife",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "D",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Flamengo",
+                  "cidade": "Rio de Janeiro",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "B",
+                  "grupo": null
+                },
+                "rodada": 6,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Fortaleza",
+                  "cidade": "Fortaleza",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "D",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Gremio",
+                  "cidade": "Porto Alegre",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "C",
+                  "grupo": null
+                },
+                "rodada": 6,
+                "data": null,
+                "local": null
+              }
+            ]
+          },
+          {
+            "numeroRodada": 7,
+            "jogos": [
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "São Paulo",
+                  "cidade": "São Paulo",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "A",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Ponte Preta",
+                  "cidade": "Campinas",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "A",
+                  "grupo": null
+                },
+                "rodada": 7,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Coritiba",
+                  "cidade": "Curitiba",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "C",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Sport",
+                  "cidade": "Recife",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "D",
+                  "grupo": null
+                },
+                "rodada": 7,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Atletico-MG",
+                  "cidade": "Belo Horizonte",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "B",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Fortaleza",
+                  "cidade": "Fortaleza",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "D",
+                  "grupo": null
+                },
+                "rodada": 7,
+                "data": null,
+                "local": null
+              },
+              {
+                "mandante": {
+                  "id": 0,
+                  "nome": "Flamengo",
+                  "cidade": "Rio de Janeiro",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "B",
+                  "grupo": null
+                },
+                "visitante": {
+                  "id": 0,
+                  "nome": "Gremio",
+                  "cidade": "Porto Alegre",
+                  "coordenadaX": 0,
+                  "coordenadaY": 0,
+                  "cluster": "C",
+                  "grupo": null
+                },
+                "rodada": 7,
+                "data": null,
+                "local": null
+              }
+            ]
+          }
+        ]
+      ]
+    }
+  }
