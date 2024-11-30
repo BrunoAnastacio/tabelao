@@ -88,18 +88,21 @@ public class Grupo {
         //this.equipes.add(1,this.equipes.remove(this.equipes.size()-1));
         if (equipes.size() > 1) {
             // Remove o último elemento e insere no início (rotação no sentido anti-horário)
+            Equipe e = equipes.removeFirst();
             equipes.addFirst(equipes.removeLast());
+            equipes.addFirst(e);
         }
     }
 
-        @Override
+    @Override
     public String toString() {
         return "Grupo{" +
-                "nomeGrupo=" + nomeGrupo +
+                "equipes=" + equipes +
+                ", nomeGrupo='" + nomeGrupo + '\'' +
                 '}';
     }
 
-//    @Override
+    //    @Override
 //    public String toString() {
 //        return "Grupo{" +
 //                "nomeGrupo=" + nomeGrupo +

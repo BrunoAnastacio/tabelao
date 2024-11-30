@@ -24,23 +24,22 @@ public class RoundRobin {
         int numTimes = grupo.getSize();
         List<Rodada> rodadas = new ArrayList<>(); //cria lista de rodadas
 
-        for (int r = 0; r < numTimes -1; r++ ){ //itera pelo numero de rodadas
-            Rodada rodada = new Rodada( r+1+qtdeRodadasCriadas ); //cria uma rodada com sua lista de jogos
+        for (int r = 0; r < numTimes -1; r++ ) { //itera pelo numero de rodadas
+            Rodada rodada = new Rodada(r + 1 + qtdeRodadasCriadas); //cria uma rodada com sua lista de jogos
 
-            for (int i = 0; i < numTimes/2; i++ ){ //itera pelo numero de jogos
+            for (int i = 0; i < numTimes / 2; i++) { //itera pelo numero de jogos
                 if (inverterMando) {
                     visitante = grupo.getEquipe(i);
                     mandante = grupo.getEquipe(numTimes - 1 - i);
-                }
-                else{
+                } else {
                     mandante = grupo.getEquipe(i);
                     visitante = grupo.getEquipe(numTimes - 1 - i);
                 }
                 //verifica a rodada de descanso em caso de grupo com numero impar de times
-                if(!mandante.getNome().equals("folga")&&!visitante.getNome().equals("folga")){
-                    if(r % 2 == 0){
+                if (!mandante.getNome().equals("folga") && !visitante.getNome().equals("folga")) {
+                    if (r % 2 == 0) {
                         jogo = new Jogo(mandante, visitante, rodada.getNumeroRodada());
-                    } else{
+                    } else {
                         jogo = new Jogo(visitante, mandante, rodada.getNumeroRodada());
                     }
                 }
@@ -48,6 +47,7 @@ public class RoundRobin {
             }
             rodadas.add(rodada);
             grupo.rotacionar();
+            System.out.println(grupo.toString());
         }
         return rodadas;
     }
