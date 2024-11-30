@@ -4,17 +4,8 @@
       "equipes": [
         {
           "id": 0,
-          "nome": "Corinthians",
-          "cidade": "São Paulo",
-          "coordenadaX": 0,
-          "coordenadaY": 0,
-          "cluster": "A",
-          "grupo": null
-        },
-        {
-          "id": 0,
-          "nome": "Internacional",
-          "cidade": "Porto Alegre",
+          "nome": "Ituano",
+          "cidade": "Itu",
           "coordenadaX": 0,
           "coordenadaY": 0,
           "cluster": "D",
@@ -22,17 +13,26 @@
         },
         {
           "id": 0,
-          "nome": "Vasco",
-          "cidade": "Rio de Janeiro",
+          "nome": "Santo André",
+          "cidade": "Santo André",
           "coordenadaX": 0,
           "coordenadaY": 0,
-          "cluster": "B",
+          "cluster": "C",
           "grupo": null
         },
         {
           "id": 0,
-          "nome": "Sao Paulo",
-          "cidade": "Sao Paulo",
+          "nome": "Botafogo-SP",
+          "cidade": "Ribeirão Preto",
+          "coordenadaX": 0,
+          "coordenadaY": 0,
+          "cluster": "C",
+          "grupo": null
+        },
+        {
+          "id": 0,
+          "nome": "Mirassol",
+          "cidade": "Mirassol",
           "coordenadaX": 0,
           "coordenadaY": 0,
           "cluster": "A",
@@ -46,8 +46,17 @@
       "equipes": [
         {
           "id": 0,
-          "nome": "Atletico-MG",
-          "cidade": "Belo Horizonte",
+          "nome": "Novorizontino",
+          "cidade": "Novo Horizonte",
+          "coordenadaX": 0,
+          "coordenadaY": 0,
+          "cluster": "A",
+          "grupo": null
+        },
+        {
+          "id": 0,
+          "nome": "Red Bull Bragantino",
+          "cidade": "Bragança Paulista",
           "coordenadaX": 0,
           "coordenadaY": 0,
           "cluster": "C",
@@ -55,17 +64,8 @@
         },
         {
           "id": 0,
-          "nome": "Fortaleza",
-          "cidade": "Fortaleza",
-          "coordenadaX": 0,
-          "coordenadaY": 0,
-          "cluster": "E",
-          "grupo": null
-        },
-        {
-          "id": 0,
-          "nome": "Flamengo",
-          "cidade": "Rio de Janeiro",
+          "nome": "Água Santa",
+          "cidade": "Diadema",
           "coordenadaX": 0,
           "coordenadaY": 0,
           "cluster": "B",
@@ -73,15 +73,99 @@
         },
         {
           "id": 0,
-          "nome": "Cruzeiro",
-          "cidade": "Belo Horizonte",
+          "nome": "Corinthians",
+          "cidade": "São Paulo",
           "coordenadaX": 0,
           "coordenadaY": 0,
-          "cluster": "C",
+          "cluster": "A",
           "grupo": null
         }
       ],
       "nomeGrupo": "Grupo 2",
+      "size": 4
+    },
+    {
+      "equipes": [
+        {
+          "id": 0,
+          "nome": "Guarani",
+          "cidade": "Campinas",
+          "coordenadaX": 0,
+          "coordenadaY": 0,
+          "cluster": "D",
+          "grupo": null
+        },
+        {
+          "id": 0,
+          "nome": "Inter de Limeira",
+          "cidade": "Limeira",
+          "coordenadaX": 0,
+          "coordenadaY": 0,
+          "cluster": "B",
+          "grupo": null
+        },
+        {
+          "id": 0,
+          "nome": "Ferroviária",
+          "cidade": "Araraquara",
+          "coordenadaX": 0,
+          "coordenadaY": 0,
+          "cluster": "C",
+          "grupo": null
+        },
+        {
+          "id": 0,
+          "nome": "Palmeiras",
+          "cidade": "São Paulo",
+          "coordenadaX": 0,
+          "coordenadaY": 0,
+          "cluster": "A",
+          "grupo": null
+        }
+      ],
+      "nomeGrupo": "Grupo 3",
+      "size": 4
+    },
+    {
+      "equipes": [
+        {
+          "id": 0,
+          "nome": "São Paulo",
+          "cidade": "São Paulo",
+          "coordenadaX": 0,
+          "coordenadaY": 0,
+          "cluster": "B",
+          "grupo": null
+        },
+        {
+          "id": 0,
+          "nome": "Portuguesa",
+          "cidade": "São Paulo",
+          "coordenadaX": 0,
+          "coordenadaY": 0,
+          "cluster": "D",
+          "grupo": null
+        },
+        {
+          "id": 0,
+          "nome": "Santos",
+          "cidade": "Santos",
+          "coordenadaX": 0,
+          "coordenadaY": 0,
+          "cluster": "B",
+          "grupo": null
+        },
+        {
+          "id": 0,
+          "nome": "Ponte Preta",
+          "cidade": "Campinas",
+          "coordenadaX": 0,
+          "coordenadaY": 0,
+          "cluster": "D",
+          "grupo": null
+        }
+      ],
+      "nomeGrupo": "Grupo 4",
       "size": 4
     }
   ],
@@ -92,17 +176,17 @@
         {
           "mandante": {
             "id": 0,
-            "nome": "Corinthians",
-            "cidade": "São Paulo",
+            "nome": "Ituano",
+            "cidade": "Itu",
             "coordenadaX": 0,
             "coordenadaY": 0,
-            "cluster": "A",
+            "cluster": "D",
             "grupo": null
           },
           "visitante": {
             "id": 0,
-            "nome": "Sao Paulo",
-            "cidade": "Sao Paulo",
+            "nome": "Mirassol",
+            "cidade": "Mirassol",
             "coordenadaX": 0,
             "coordenadaY": 0,
             "cluster": "A",
@@ -115,17 +199,170 @@
         {
           "mandante": {
             "id": 0,
-            "nome": "Internacional",
-            "cidade": "Porto Alegre",
+            "nome": "Santo André",
+            "cidade": "Santo André",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Botafogo-SP",
+            "cidade": "Ribeirão Preto",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 1,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 2,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Botafogo-SP",
+            "cidade": "Ribeirão Preto",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Mirassol",
+            "cidade": "Mirassol",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 2,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Santo André",
+            "cidade": "Santo André",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Ituano",
+            "cidade": "Itu",
             "coordenadaX": 0,
             "coordenadaY": 0,
             "cluster": "D",
             "grupo": null
           },
+          "rodada": 2,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 3,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Botafogo-SP",
+            "cidade": "Ribeirão Preto",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
           "visitante": {
             "id": 0,
-            "nome": "Vasco",
-            "cidade": "Rio de Janeiro",
+            "nome": "Santo André",
+            "cidade": "Santo André",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 3,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Mirassol",
+            "cidade": "Mirassol",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Ituano",
+            "cidade": "Itu",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 3,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 1,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Novorizontino",
+            "cidade": "Novo Horizonte",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Corinthians",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 1,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Red Bull Bragantino",
+            "cidade": "Bragança Paulista",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Água Santa",
+            "cidade": "Diadema",
             "coordenadaX": 0,
             "coordenadaY": 0,
             "cluster": "B",
@@ -143,8 +380,8 @@
         {
           "mandante": {
             "id": 0,
-            "nome": "Vasco",
-            "cidade": "Rio de Janeiro",
+            "nome": "Água Santa",
+            "cidade": "Diadema",
             "coordenadaX": 0,
             "coordenadaY": 0,
             "cluster": "B",
@@ -166,17 +403,17 @@
         {
           "mandante": {
             "id": 0,
-            "nome": "Internacional",
-            "cidade": "Porto Alegre",
+            "nome": "Red Bull Bragantino",
+            "cidade": "Bragança Paulista",
             "coordenadaX": 0,
             "coordenadaY": 0,
-            "cluster": "D",
+            "cluster": "C",
             "grupo": null
           },
           "visitante": {
             "id": 0,
-            "nome": "Sao Paulo",
-            "cidade": "Sao Paulo",
+            "nome": "Novorizontino",
+            "cidade": "Novo Horizonte",
             "coordenadaX": 0,
             "coordenadaY": 0,
             "cluster": "A",
@@ -194,6 +431,29 @@
         {
           "mandante": {
             "id": 0,
+            "nome": "Água Santa",
+            "cidade": "Diadema",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Red Bull Bragantino",
+            "cidade": "Bragança Paulista",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 3,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
             "nome": "Corinthians",
             "cidade": "São Paulo",
             "coordenadaX": 0,
@@ -203,8 +463,291 @@
           },
           "visitante": {
             "id": 0,
-            "nome": "Internacional",
-            "cidade": "Porto Alegre",
+            "nome": "Novorizontino",
+            "cidade": "Novo Horizonte",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 3,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 1,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Guarani",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Palmeiras",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 1,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Inter de Limeira",
+            "cidade": "Limeira",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Ferroviária",
+            "cidade": "Araraquara",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 1,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 2,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Ferroviária",
+            "cidade": "Araraquara",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Palmeiras",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 2,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Inter de Limeira",
+            "cidade": "Limeira",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Guarani",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 2,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 3,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Ferroviária",
+            "cidade": "Araraquara",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Inter de Limeira",
+            "cidade": "Limeira",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 3,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Palmeiras",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Guarani",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 3,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 1,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "São Paulo",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Ponte Preta",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 1,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Portuguesa",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Santos",
+            "cidade": "Santos",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 1,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 2,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Santos",
+            "cidade": "Santos",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Ponte Preta",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 2,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Portuguesa",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "São Paulo",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 2,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 3,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Santos",
+            "cidade": "Santos",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Portuguesa",
+            "cidade": "São Paulo",
             "coordenadaX": 0,
             "coordenadaY": 0,
             "cluster": "D",
@@ -217,8 +760,291 @@
         {
           "mandante": {
             "id": 0,
-            "nome": "Vasco",
-            "cidade": "Rio de Janeiro",
+            "nome": "Ponte Preta",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "São Paulo",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 3,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 1,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Ituano",
+            "cidade": "Itu",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Santo André",
+            "cidade": "Santo André",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 1,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Mirassol",
+            "cidade": "Mirassol",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Botafogo-SP",
+            "cidade": "Ribeirão Preto",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 1,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 2,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Ituano",
+            "cidade": "Itu",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Mirassol",
+            "cidade": "Mirassol",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 2,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Santo André",
+            "cidade": "Santo André",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Botafogo-SP",
+            "cidade": "Ribeirão Preto",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 2,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 3,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Botafogo-SP",
+            "cidade": "Ribeirão Preto",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Mirassol",
+            "cidade": "Mirassol",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 3,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Santo André",
+            "cidade": "Santo André",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Ituano",
+            "cidade": "Itu",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 3,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 1,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Novorizontino",
+            "cidade": "Novo Horizonte",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Red Bull Bragantino",
+            "cidade": "Bragança Paulista",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 1,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Corinthians",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Água Santa",
+            "cidade": "Diadema",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 1,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 2,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Novorizontino",
+            "cidade": "Novo Horizonte",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Corinthians",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 2,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Red Bull Bragantino",
+            "cidade": "Bragança Paulista",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Água Santa",
+            "cidade": "Diadema",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 2,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 3,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Água Santa",
+            "cidade": "Diadema",
             "coordenadaX": 0,
             "coordenadaY": 0,
             "cluster": "B",
@@ -226,8 +1052,31 @@
           },
           "visitante": {
             "id": 0,
-            "nome": "Sao Paulo",
-            "cidade": "Sao Paulo",
+            "nome": "Corinthians",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 3,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Red Bull Bragantino",
+            "cidade": "Bragança Paulista",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Novorizontino",
+            "cidade": "Novo Horizonte",
             "coordenadaX": 0,
             "coordenadaY": 0,
             "cluster": "A",
@@ -240,138 +1089,87 @@
       ]
     },
     {
-      "numeroRodada": 4,
+      "numeroRodada": 1,
       "jogos": [
         {
           "mandante": {
             "id": 0,
-            "nome": "Atletico-MG",
-            "cidade": "Belo Horizonte",
+            "nome": "Guarani",
+            "cidade": "Campinas",
             "coordenadaX": 0,
             "coordenadaY": 0,
-            "cluster": "C",
+            "cluster": "D",
             "grupo": null
           },
           "visitante": {
             "id": 0,
-            "nome": "Cruzeiro",
-            "cidade": "Belo Horizonte",
+            "nome": "Inter de Limeira",
+            "cidade": "Limeira",
             "coordenadaX": 0,
             "coordenadaY": 0,
-            "cluster": "C",
+            "cluster": "B",
             "grupo": null
           },
-          "rodada": 4,
+          "rodada": 1,
           "data": null,
           "local": null
         },
         {
           "mandante": {
             "id": 0,
-            "nome": "Fortaleza",
-            "cidade": "Fortaleza",
+            "nome": "Palmeiras",
+            "cidade": "São Paulo",
             "coordenadaX": 0,
             "coordenadaY": 0,
-            "cluster": "E",
+            "cluster": "A",
             "grupo": null
           },
           "visitante": {
             "id": 0,
-            "nome": "Flamengo",
-            "cidade": "Rio de Janeiro",
+            "nome": "Ferroviária",
+            "cidade": "Araraquara",
             "coordenadaX": 0,
             "coordenadaY": 0,
-            "cluster": "B",
+            "cluster": "C",
             "grupo": null
           },
-          "rodada": 4,
+          "rodada": 1,
           "data": null,
           "local": null
         }
       ]
     },
     {
-      "numeroRodada": 5,
+      "numeroRodada": 2,
       "jogos": [
         {
           "mandante": {
             "id": 0,
-            "nome": "Flamengo",
-            "cidade": "Rio de Janeiro",
+            "nome": "Guarani",
+            "cidade": "Campinas",
             "coordenadaX": 0,
             "coordenadaY": 0,
-            "cluster": "B",
+            "cluster": "D",
             "grupo": null
           },
           "visitante": {
             "id": 0,
-            "nome": "Atletico-MG",
-            "cidade": "Belo Horizonte",
+            "nome": "Palmeiras",
+            "cidade": "São Paulo",
             "coordenadaX": 0,
             "coordenadaY": 0,
-            "cluster": "C",
+            "cluster": "A",
             "grupo": null
           },
-          "rodada": 5,
+          "rodada": 2,
           "data": null,
           "local": null
         },
         {
           "mandante": {
             "id": 0,
-            "nome": "Fortaleza",
-            "cidade": "Fortaleza",
-            "coordenadaX": 0,
-            "coordenadaY": 0,
-            "cluster": "E",
-            "grupo": null
-          },
-          "visitante": {
-            "id": 0,
-            "nome": "Cruzeiro",
-            "cidade": "Belo Horizonte",
-            "coordenadaX": 0,
-            "coordenadaY": 0,
-            "cluster": "C",
-            "grupo": null
-          },
-          "rodada": 5,
-          "data": null,
-          "local": null
-        }
-      ]
-    },
-    {
-      "numeroRodada": 6,
-      "jogos": [
-        {
-          "mandante": {
-            "id": 0,
-            "nome": "Atletico-MG",
-            "cidade": "Belo Horizonte",
-            "coordenadaX": 0,
-            "coordenadaY": 0,
-            "cluster": "C",
-            "grupo": null
-          },
-          "visitante": {
-            "id": 0,
-            "nome": "Fortaleza",
-            "cidade": "Fortaleza",
-            "coordenadaX": 0,
-            "coordenadaY": 0,
-            "cluster": "E",
-            "grupo": null
-          },
-          "rodada": 6,
-          "data": null,
-          "local": null
-        },
-        {
-          "mandante": {
-            "id": 0,
-            "nome": "Flamengo",
-            "cidade": "Rio de Janeiro",
+            "nome": "Inter de Limeira",
+            "cidade": "Limeira",
             "coordenadaX": 0,
             "coordenadaY": 0,
             "cluster": "B",
@@ -379,27 +1177,486 @@
           },
           "visitante": {
             "id": 0,
-            "nome": "Cruzeiro",
-            "cidade": "Belo Horizonte",
+            "nome": "Ferroviária",
+            "cidade": "Araraquara",
             "coordenadaX": 0,
             "coordenadaY": 0,
             "cluster": "C",
             "grupo": null
           },
-          "rodada": 6,
+          "rodada": 2,
           "data": null,
           "local": null
         }
       ]
     },
     {
-      "numeroRodada": 7,
+      "numeroRodada": 3,
       "jogos": [
         {
           "mandante": {
             "id": 0,
-            "nome": "Sao Paulo",
-            "cidade": "Sao Paulo",
+            "nome": "Ferroviária",
+            "cidade": "Araraquara",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Palmeiras",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 3,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Inter de Limeira",
+            "cidade": "Limeira",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Guarani",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 3,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 1,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "São Paulo",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Portuguesa",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 1,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Ponte Preta",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Santos",
+            "cidade": "Santos",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 1,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 2,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "São Paulo",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Ponte Preta",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 2,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Portuguesa",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Santos",
+            "cidade": "Santos",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 2,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 3,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Santos",
+            "cidade": "Santos",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Ponte Preta",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 3,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Portuguesa",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "São Paulo",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 3,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 1,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Botafogo-SP",
+            "cidade": "Ribeirão Preto",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Santo André",
+            "cidade": "Santo André",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 1,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Mirassol",
+            "cidade": "Mirassol",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Ituano",
+            "cidade": "Itu",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 1,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 2,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Ituano",
+            "cidade": "Itu",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Santo André",
+            "cidade": "Santo André",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 2,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Mirassol",
+            "cidade": "Mirassol",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Botafogo-SP",
+            "cidade": "Ribeirão Preto",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 2,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 3,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Ituano",
+            "cidade": "Itu",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Mirassol",
+            "cidade": "Mirassol",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 3,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Santo André",
+            "cidade": "Santo André",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Botafogo-SP",
+            "cidade": "Ribeirão Preto",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 3,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 1,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Água Santa",
+            "cidade": "Diadema",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Red Bull Bragantino",
+            "cidade": "Bragança Paulista",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 1,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Corinthians",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Novorizontino",
+            "cidade": "Novo Horizonte",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 1,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 2,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Novorizontino",
+            "cidade": "Novo Horizonte",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Red Bull Bragantino",
+            "cidade": "Bragança Paulista",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 2,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Corinthians",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Água Santa",
+            "cidade": "Diadema",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 2,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 3,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Novorizontino",
+            "cidade": "Novo Horizonte",
             "coordenadaX": 0,
             "coordenadaY": 0,
             "cluster": "A",
@@ -414,15 +1671,168 @@
             "cluster": "A",
             "grupo": null
           },
-          "rodada": 7,
+          "rodada": 3,
           "data": null,
           "local": null
         },
         {
           "mandante": {
             "id": 0,
-            "nome": "Vasco",
-            "cidade": "Rio de Janeiro",
+            "nome": "Red Bull Bragantino",
+            "cidade": "Bragança Paulista",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Água Santa",
+            "cidade": "Diadema",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 3,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 1,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Ferroviária",
+            "cidade": "Araraquara",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Inter de Limeira",
+            "cidade": "Limeira",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 1,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Palmeiras",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Guarani",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 1,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 2,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Guarani",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Inter de Limeira",
+            "cidade": "Limeira",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 2,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Palmeiras",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Ferroviária",
+            "cidade": "Araraquara",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 2,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 3,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Guarani",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Palmeiras",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 3,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Inter de Limeira",
+            "cidade": "Limeira",
             "coordenadaX": 0,
             "coordenadaY": 0,
             "cluster": "B",
@@ -430,22 +1840,402 @@
           },
           "visitante": {
             "id": 0,
-            "nome": "Internacional",
-            "cidade": "Porto Alegre",
+            "nome": "Ferroviária",
+            "cidade": "Araraquara",
             "coordenadaX": 0,
             "coordenadaY": 0,
-            "cluster": "D",
+            "cluster": "C",
             "grupo": null
           },
-          "rodada": 7,
+          "rodada": 3,
           "data": null,
           "local": null
         }
       ]
     },
     {
-      "numeroRodada": 8,
+      "numeroRodada": 1,
       "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Santos",
+            "cidade": "Santos",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Portuguesa",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 1,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Ponte Preta",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "São Paulo",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 1,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 2,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "São Paulo",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Portuguesa",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 2,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Ponte Preta",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Santos",
+            "cidade": "Santos",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 2,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 3,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "São Paulo",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Ponte Preta",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 3,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Portuguesa",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Santos",
+            "cidade": "Santos",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 3,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 1,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Botafogo-SP",
+            "cidade": "Ribeirão Preto",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Mirassol",
+            "cidade": "Mirassol",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 1,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Santo André",
+            "cidade": "Santo André",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Ituano",
+            "cidade": "Itu",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 1,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 2,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Botafogo-SP",
+            "cidade": "Ribeirão Preto",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Santo André",
+            "cidade": "Santo André",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 2,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Mirassol",
+            "cidade": "Mirassol",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Ituano",
+            "cidade": "Itu",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 2,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 3,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Ituano",
+            "cidade": "Itu",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Santo André",
+            "cidade": "Santo André",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 3,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Mirassol",
+            "cidade": "Mirassol",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Botafogo-SP",
+            "cidade": "Ribeirão Preto",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 3,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 1,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Água Santa",
+            "cidade": "Diadema",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Corinthians",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 1,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Red Bull Bragantino",
+            "cidade": "Bragança Paulista",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Novorizontino",
+            "cidade": "Novo Horizonte",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 1,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 2,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Água Santa",
+            "cidade": "Diadema",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Red Bull Bragantino",
+            "cidade": "Bragança Paulista",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 2,
+          "data": null,
+          "local": null
+        },
         {
           "mandante": {
             "id": 0,
@@ -458,22 +2248,27 @@
           },
           "visitante": {
             "id": 0,
-            "nome": "Vasco",
-            "cidade": "Rio de Janeiro",
+            "nome": "Novorizontino",
+            "cidade": "Novo Horizonte",
             "coordenadaX": 0,
             "coordenadaY": 0,
-            "cluster": "B",
+            "cluster": "A",
             "grupo": null
           },
-          "rodada": 8,
+          "rodada": 2,
           "data": null,
           "local": null
-        },
+        }
+      ]
+    },
+    {
+      "numeroRodada": 3,
+      "jogos": [
         {
           "mandante": {
             "id": 0,
-            "nome": "Sao Paulo",
-            "cidade": "Sao Paulo",
+            "nome": "Novorizontino",
+            "cidade": "Novo Horizonte",
             "coordenadaX": 0,
             "coordenadaY": 0,
             "cluster": "A",
@@ -481,33 +2276,19 @@
           },
           "visitante": {
             "id": 0,
-            "nome": "Internacional",
-            "cidade": "Porto Alegre",
+            "nome": "Red Bull Bragantino",
+            "cidade": "Bragança Paulista",
             "coordenadaX": 0,
             "coordenadaY": 0,
-            "cluster": "D",
+            "cluster": "C",
             "grupo": null
           },
-          "rodada": 8,
+          "rodada": 3,
           "data": null,
           "local": null
-        }
-      ]
-    },
-    {
-      "numeroRodada": 9,
-      "jogos": [
+        },
         {
           "mandante": {
-            "id": 0,
-            "nome": "Internacional",
-            "cidade": "Porto Alegre",
-            "coordenadaX": 0,
-            "coordenadaY": 0,
-            "cluster": "D",
-            "grupo": null
-          },
-          "visitante": {
             "id": 0,
             "nome": "Corinthians",
             "cidade": "São Paulo",
@@ -516,15 +2297,103 @@
             "cluster": "A",
             "grupo": null
           },
-          "rodada": 9,
+          "visitante": {
+            "id": 0,
+            "nome": "Água Santa",
+            "cidade": "Diadema",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 3,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 1,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Ferroviária",
+            "cidade": "Araraquara",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Palmeiras",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 1,
           "data": null,
           "local": null
         },
         {
           "mandante": {
             "id": 0,
-            "nome": "Sao Paulo",
-            "cidade": "Sao Paulo",
+            "nome": "Inter de Limeira",
+            "cidade": "Limeira",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Guarani",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 1,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 2,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Ferroviária",
+            "cidade": "Araraquara",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Inter de Limeira",
+            "cidade": "Limeira",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 2,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Palmeiras",
+            "cidade": "São Paulo",
             "coordenadaX": 0,
             "coordenadaY": 0,
             "cluster": "A",
@@ -532,167 +2401,218 @@
           },
           "visitante": {
             "id": 0,
-            "nome": "Vasco",
-            "cidade": "Rio de Janeiro",
+            "nome": "Guarani",
+            "cidade": "Campinas",
             "coordenadaX": 0,
             "coordenadaY": 0,
-            "cluster": "B",
+            "cluster": "D",
             "grupo": null
           },
-          "rodada": 9,
+          "rodada": 2,
           "data": null,
           "local": null
         }
       ]
     },
     {
-      "numeroRodada": 10,
+      "numeroRodada": 3,
       "jogos": [
         {
           "mandante": {
             "id": 0,
-            "nome": "Cruzeiro",
-            "cidade": "Belo Horizonte",
+            "nome": "Guarani",
+            "cidade": "Campinas",
             "coordenadaX": 0,
             "coordenadaY": 0,
-            "cluster": "C",
+            "cluster": "D",
             "grupo": null
           },
           "visitante": {
             "id": 0,
-            "nome": "Atletico-MG",
-            "cidade": "Belo Horizonte",
+            "nome": "Inter de Limeira",
+            "cidade": "Limeira",
             "coordenadaX": 0,
             "coordenadaY": 0,
-            "cluster": "C",
+            "cluster": "B",
             "grupo": null
           },
-          "rodada": 10,
+          "rodada": 3,
           "data": null,
           "local": null
         },
         {
           "mandante": {
             "id": 0,
-            "nome": "Flamengo",
-            "cidade": "Rio de Janeiro",
+            "nome": "Palmeiras",
+            "cidade": "São Paulo",
             "coordenadaX": 0,
             "coordenadaY": 0,
-            "cluster": "B",
+            "cluster": "A",
             "grupo": null
           },
           "visitante": {
             "id": 0,
-            "nome": "Fortaleza",
-            "cidade": "Fortaleza",
+            "nome": "Ferroviária",
+            "cidade": "Araraquara",
             "coordenadaX": 0,
             "coordenadaY": 0,
-            "cluster": "E",
+            "cluster": "C",
             "grupo": null
           },
-          "rodada": 10,
+          "rodada": 3,
           "data": null,
           "local": null
         }
       ]
     },
     {
-      "numeroRodada": 11,
+      "numeroRodada": 1,
       "jogos": [
         {
           "mandante": {
             "id": 0,
-            "nome": "Atletico-MG",
-            "cidade": "Belo Horizonte",
-            "coordenadaX": 0,
-            "coordenadaY": 0,
-            "cluster": "C",
-            "grupo": null
-          },
-          "visitante": {
-            "id": 0,
-            "nome": "Flamengo",
-            "cidade": "Rio de Janeiro",
+            "nome": "Santos",
+            "cidade": "Santos",
             "coordenadaX": 0,
             "coordenadaY": 0,
             "cluster": "B",
             "grupo": null
           },
-          "rodada": 11,
+          "visitante": {
+            "id": 0,
+            "nome": "Ponte Preta",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 1,
           "data": null,
           "local": null
         },
         {
           "mandante": {
             "id": 0,
-            "nome": "Cruzeiro",
-            "cidade": "Belo Horizonte",
+            "nome": "Portuguesa",
+            "cidade": "São Paulo",
             "coordenadaX": 0,
             "coordenadaY": 0,
-            "cluster": "C",
+            "cluster": "D",
             "grupo": null
           },
           "visitante": {
             "id": 0,
-            "nome": "Fortaleza",
-            "cidade": "Fortaleza",
+            "nome": "São Paulo",
+            "cidade": "São Paulo",
             "coordenadaX": 0,
             "coordenadaY": 0,
-            "cluster": "E",
+            "cluster": "B",
             "grupo": null
           },
-          "rodada": 11,
+          "rodada": 1,
           "data": null,
           "local": null
         }
       ]
     },
     {
-      "numeroRodada": 12,
+      "numeroRodada": 2,
       "jogos": [
         {
           "mandante": {
             "id": 0,
-            "nome": "Fortaleza",
-            "cidade": "Fortaleza",
+            "nome": "Santos",
+            "cidade": "Santos",
             "coordenadaX": 0,
             "coordenadaY": 0,
-            "cluster": "E",
+            "cluster": "B",
             "grupo": null
           },
           "visitante": {
             "id": 0,
-            "nome": "Atletico-MG",
-            "cidade": "Belo Horizonte",
+            "nome": "Portuguesa",
+            "cidade": "São Paulo",
             "coordenadaX": 0,
             "coordenadaY": 0,
-            "cluster": "C",
+            "cluster": "D",
             "grupo": null
           },
-          "rodada": 12,
+          "rodada": 2,
           "data": null,
           "local": null
         },
         {
           "mandante": {
             "id": 0,
-            "nome": "Cruzeiro",
-            "cidade": "Belo Horizonte",
+            "nome": "Ponte Preta",
+            "cidade": "Campinas",
             "coordenadaX": 0,
             "coordenadaY": 0,
-            "cluster": "C",
+            "cluster": "D",
             "grupo": null
           },
           "visitante": {
             "id": 0,
-            "nome": "Flamengo",
-            "cidade": "Rio de Janeiro",
+            "nome": "São Paulo",
+            "cidade": "São Paulo",
             "coordenadaX": 0,
             "coordenadaY": 0,
             "cluster": "B",
             "grupo": null
           },
-          "rodada": 12,
+          "rodada": 2,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 3,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "São Paulo",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Portuguesa",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 3,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Ponte Preta",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Santos",
+            "cidade": "Santos",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 3,
           "data": null,
           "local": null
         }
@@ -704,20 +2624,20 @@
         {
           "mandante": {
             "id": 0,
-            "nome": "Corinthians",
+            "nome": "São Paulo",
             "cidade": "São Paulo",
             "coordenadaX": 0,
             "coordenadaY": 0,
-            "cluster": "A",
+            "cluster": "B",
             "grupo": null
           },
           "visitante": {
             "id": 0,
-            "nome": "Sao Paulo",
-            "cidade": "Sao Paulo",
+            "nome": "Ituano",
+            "cidade": "Itu",
             "coordenadaX": 0,
             "coordenadaY": 0,
-            "cluster": "A",
+            "cluster": "D",
             "grupo": null
           },
           "rodada": 13,
@@ -727,8 +2647,8 @@
         {
           "mandante": {
             "id": 0,
-            "nome": "Internacional",
-            "cidade": "Porto Alegre",
+            "nome": "Portuguesa",
+            "cidade": "São Paulo",
             "coordenadaX": 0,
             "coordenadaY": 0,
             "cluster": "D",
@@ -736,11 +2656,57 @@
           },
           "visitante": {
             "id": 0,
-            "nome": "Vasco",
-            "cidade": "Rio de Janeiro",
+            "nome": "Santo André",
+            "cidade": "Santo André",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 13,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Santos",
+            "cidade": "Santos",
             "coordenadaX": 0,
             "coordenadaY": 0,
             "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Botafogo-SP",
+            "cidade": "Ribeirão Preto",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 13,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Ponte Preta",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Mirassol",
+            "cidade": "Mirassol",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
             "grupo": null
           },
           "rodada": 13,
@@ -755,20 +2721,20 @@
         {
           "mandante": {
             "id": 0,
-            "nome": "Vasco",
-            "cidade": "Rio de Janeiro",
+            "nome": "Ituano",
+            "cidade": "Itu",
             "coordenadaX": 0,
             "coordenadaY": 0,
-            "cluster": "B",
+            "cluster": "D",
             "grupo": null
           },
           "visitante": {
             "id": 0,
-            "nome": "Corinthians",
+            "nome": "Portuguesa",
             "cidade": "São Paulo",
             "coordenadaX": 0,
             "coordenadaY": 0,
-            "cluster": "A",
+            "cluster": "D",
             "grupo": null
           },
           "rodada": 14,
@@ -778,20 +2744,66 @@
         {
           "mandante": {
             "id": 0,
-            "nome": "Internacional",
-            "cidade": "Porto Alegre",
+            "nome": "Santo André",
+            "cidade": "Santo André",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Santos",
+            "cidade": "Santos",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 14,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Botafogo-SP",
+            "cidade": "Ribeirão Preto",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Ponte Preta",
+            "cidade": "Campinas",
             "coordenadaX": 0,
             "coordenadaY": 0,
             "cluster": "D",
             "grupo": null
           },
-          "visitante": {
+          "rodada": 14,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
             "id": 0,
-            "nome": "Sao Paulo",
-            "cidade": "Sao Paulo",
+            "nome": "Mirassol",
+            "cidade": "Mirassol",
             "coordenadaX": 0,
             "coordenadaY": 0,
             "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "São Paulo",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
             "grupo": null
           },
           "rodada": 14,
@@ -806,17 +2818,17 @@
         {
           "mandante": {
             "id": 0,
-            "nome": "Corinthians",
-            "cidade": "São Paulo",
+            "nome": "Santos",
+            "cidade": "Santos",
             "coordenadaX": 0,
             "coordenadaY": 0,
-            "cluster": "A",
+            "cluster": "B",
             "grupo": null
           },
           "visitante": {
             "id": 0,
-            "nome": "Internacional",
-            "cidade": "Porto Alegre",
+            "nome": "Ituano",
+            "cidade": "Itu",
             "coordenadaX": 0,
             "coordenadaY": 0,
             "cluster": "D",
@@ -829,8 +2841,31 @@
         {
           "mandante": {
             "id": 0,
-            "nome": "Vasco",
-            "cidade": "Rio de Janeiro",
+            "nome": "Ponte Preta",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Santo André",
+            "cidade": "Santo André",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 15,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "São Paulo",
+            "cidade": "São Paulo",
             "coordenadaX": 0,
             "coordenadaY": 0,
             "cluster": "B",
@@ -838,8 +2873,31 @@
           },
           "visitante": {
             "id": 0,
-            "nome": "Sao Paulo",
-            "cidade": "Sao Paulo",
+            "nome": "Botafogo-SP",
+            "cidade": "Ribeirão Preto",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 15,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Portuguesa",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Mirassol",
+            "cidade": "Mirassol",
             "coordenadaX": 0,
             "coordenadaY": 0,
             "cluster": "A",
@@ -857,6 +2915,269 @@
         {
           "mandante": {
             "id": 0,
+            "nome": "Ituano",
+            "cidade": "Itu",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Ponte Preta",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 16,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Santo André",
+            "cidade": "Santo André",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "São Paulo",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 16,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Botafogo-SP",
+            "cidade": "Ribeirão Preto",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Portuguesa",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 16,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Mirassol",
+            "cidade": "Mirassol",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Santos",
+            "cidade": "Santos",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 16,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 13,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Guarani",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Novorizontino",
+            "cidade": "Novo Horizonte",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 13,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Inter de Limeira",
+            "cidade": "Limeira",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Red Bull Bragantino",
+            "cidade": "Bragança Paulista",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 13,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Ferroviária",
+            "cidade": "Araraquara",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Água Santa",
+            "cidade": "Diadema",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 13,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Palmeiras",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Corinthians",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 13,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 14,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Novorizontino",
+            "cidade": "Novo Horizonte",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Inter de Limeira",
+            "cidade": "Limeira",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 14,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Red Bull Bragantino",
+            "cidade": "Bragança Paulista",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Ferroviária",
+            "cidade": "Araraquara",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 14,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Água Santa",
+            "cidade": "Diadema",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Palmeiras",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 14,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
             "nome": "Corinthians",
             "cidade": "São Paulo",
             "coordenadaX": 0,
@@ -866,68 +3187,50 @@
           },
           "visitante": {
             "id": 0,
-            "nome": "Cruzeiro",
-            "cidade": "Belo Horizonte",
-            "coordenadaX": 0,
-            "coordenadaY": 0,
-            "cluster": "C",
-            "grupo": null
-          },
-          "rodada": 16,
-          "data": null,
-          "local": null
-        },
-        {
-          "mandante": {
-            "id": 0,
-            "nome": "Internacional",
-            "cidade": "Porto Alegre",
+            "nome": "Guarani",
+            "cidade": "Campinas",
             "coordenadaX": 0,
             "coordenadaY": 0,
             "cluster": "D",
             "grupo": null
           },
-          "visitante": {
+          "rodada": 14,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 15,
+      "jogos": [
+        {
+          "mandante": {
             "id": 0,
-            "nome": "Flamengo",
-            "cidade": "Rio de Janeiro",
+            "nome": "Ferroviária",
+            "cidade": "Araraquara",
             "coordenadaX": 0,
             "coordenadaY": 0,
-            "cluster": "B",
+            "cluster": "C",
             "grupo": null
           },
-          "rodada": 16,
+          "visitante": {
+            "id": 0,
+            "nome": "Novorizontino",
+            "cidade": "Novo Horizonte",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 15,
           "data": null,
           "local": null
         },
         {
           "mandante": {
             "id": 0,
-            "nome": "Vasco",
-            "cidade": "Rio de Janeiro",
-            "coordenadaX": 0,
-            "coordenadaY": 0,
-            "cluster": "B",
-            "grupo": null
-          },
-          "visitante": {
-            "id": 0,
-            "nome": "Fortaleza",
-            "cidade": "Fortaleza",
-            "coordenadaX": 0,
-            "coordenadaY": 0,
-            "cluster": "E",
-            "grupo": null
-          },
-          "rodada": 16,
-          "data": null,
-          "local": null
-        },
-        {
-          "mandante": {
-            "id": 0,
-            "nome": "Sao Paulo",
-            "cidade": "Sao Paulo",
+            "nome": "Palmeiras",
+            "cidade": "São Paulo",
             "coordenadaX": 0,
             "coordenadaY": 0,
             "cluster": "A",
@@ -935,8 +3238,151 @@
           },
           "visitante": {
             "id": 0,
-            "nome": "Atletico-MG",
-            "cidade": "Belo Horizonte",
+            "nome": "Red Bull Bragantino",
+            "cidade": "Bragança Paulista",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 15,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Guarani",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Água Santa",
+            "cidade": "Diadema",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 15,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Inter de Limeira",
+            "cidade": "Limeira",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Corinthians",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 15,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 16,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Novorizontino",
+            "cidade": "Novo Horizonte",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Palmeiras",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 16,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Red Bull Bragantino",
+            "cidade": "Bragança Paulista",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Guarani",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 16,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Água Santa",
+            "cidade": "Diadema",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Inter de Limeira",
+            "cidade": "Limeira",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 16,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Corinthians",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Ferroviária",
+            "cidade": "Araraquara",
             "coordenadaX": 0,
             "coordenadaY": 0,
             "cluster": "C",
@@ -954,63 +3400,17 @@
         {
           "mandante": {
             "id": 0,
-            "nome": "Flamengo",
-            "cidade": "Rio de Janeiro",
-            "coordenadaX": 0,
-            "coordenadaY": 0,
-            "cluster": "B",
-            "grupo": null
-          },
-          "visitante": {
-            "id": 0,
-            "nome": "Corinthians",
-            "cidade": "São Paulo",
+            "nome": "Novorizontino",
+            "cidade": "Novo Horizonte",
             "coordenadaX": 0,
             "coordenadaY": 0,
             "cluster": "A",
             "grupo": null
           },
-          "rodada": 17,
-          "data": null,
-          "local": null
-        },
-        {
-          "mandante": {
-            "id": 0,
-            "nome": "Fortaleza",
-            "cidade": "Fortaleza",
-            "coordenadaX": 0,
-            "coordenadaY": 0,
-            "cluster": "E",
-            "grupo": null
-          },
           "visitante": {
             "id": 0,
-            "nome": "Cruzeiro",
-            "cidade": "Belo Horizonte",
-            "coordenadaX": 0,
-            "coordenadaY": 0,
-            "cluster": "C",
-            "grupo": null
-          },
-          "rodada": 17,
-          "data": null,
-          "local": null
-        },
-        {
-          "mandante": {
-            "id": 0,
-            "nome": "Atletico-MG",
-            "cidade": "Belo Horizonte",
-            "coordenadaX": 0,
-            "coordenadaY": 0,
-            "cluster": "C",
-            "grupo": null
-          },
-          "visitante": {
-            "id": 0,
-            "nome": "Internacional",
-            "cidade": "Porto Alegre",
+            "nome": "Ituano",
+            "cidade": "Itu",
             "coordenadaX": 0,
             "coordenadaY": 0,
             "cluster": "D",
@@ -1023,8 +3423,54 @@
         {
           "mandante": {
             "id": 0,
-            "nome": "Sao Paulo",
-            "cidade": "Sao Paulo",
+            "nome": "Red Bull Bragantino",
+            "cidade": "Bragança Paulista",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Santo André",
+            "cidade": "Santo André",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 17,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Água Santa",
+            "cidade": "Diadema",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Botafogo-SP",
+            "cidade": "Ribeirão Preto",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 17,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Corinthians",
+            "cidade": "São Paulo",
             "coordenadaX": 0,
             "coordenadaY": 0,
             "cluster": "A",
@@ -1032,11 +3478,11 @@
           },
           "visitante": {
             "id": 0,
-            "nome": "Vasco",
-            "cidade": "Rio de Janeiro",
+            "nome": "Mirassol",
+            "cidade": "Mirassol",
             "coordenadaX": 0,
             "coordenadaY": 0,
-            "cluster": "B",
+            "cluster": "A",
             "grupo": null
           },
           "rodada": 17,
@@ -1051,6 +3497,126 @@
         {
           "mandante": {
             "id": 0,
+            "nome": "Ituano",
+            "cidade": "Itu",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Red Bull Bragantino",
+            "cidade": "Bragança Paulista",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 18,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Santo André",
+            "cidade": "Santo André",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Água Santa",
+            "cidade": "Diadema",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 18,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Botafogo-SP",
+            "cidade": "Ribeirão Preto",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Corinthians",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 18,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Mirassol",
+            "cidade": "Mirassol",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Novorizontino",
+            "cidade": "Novo Horizonte",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 18,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 19,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Água Santa",
+            "cidade": "Diadema",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Ituano",
+            "cidade": "Itu",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 19,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
             "nome": "Corinthians",
             "cidade": "São Paulo",
             "coordenadaX": 0,
@@ -1060,68 +3626,73 @@
           },
           "visitante": {
             "id": 0,
-            "nome": "Fortaleza",
-            "cidade": "Fortaleza",
+            "nome": "Santo André",
+            "cidade": "Santo André",
             "coordenadaX": 0,
             "coordenadaY": 0,
-            "cluster": "E",
+            "cluster": "C",
             "grupo": null
           },
-          "rodada": 18,
+          "rodada": 19,
           "data": null,
           "local": null
         },
         {
           "mandante": {
             "id": 0,
-            "nome": "Flamengo",
-            "cidade": "Rio de Janeiro",
-            "coordenadaX": 0,
-            "coordenadaY": 0,
-            "cluster": "B",
-            "grupo": null
-          },
-          "visitante": {
-            "id": 0,
-            "nome": "Atletico-MG",
-            "cidade": "Belo Horizonte",
-            "coordenadaX": 0,
-            "coordenadaY": 0,
-            "cluster": "C",
-            "grupo": null
-          },
-          "rodada": 18,
-          "data": null,
-          "local": null
-        },
-        {
-          "mandante": {
-            "id": 0,
-            "nome": "Cruzeiro",
-            "cidade": "Belo Horizonte",
-            "coordenadaX": 0,
-            "coordenadaY": 0,
-            "cluster": "C",
-            "grupo": null
-          },
-          "visitante": {
-            "id": 0,
-            "nome": "Sao Paulo",
-            "cidade": "Sao Paulo",
+            "nome": "Novorizontino",
+            "cidade": "Novo Horizonte",
             "coordenadaX": 0,
             "coordenadaY": 0,
             "cluster": "A",
             "grupo": null
           },
-          "rodada": 18,
+          "visitante": {
+            "id": 0,
+            "nome": "Botafogo-SP",
+            "cidade": "Ribeirão Preto",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 19,
           "data": null,
           "local": null
         },
         {
           "mandante": {
             "id": 0,
-            "nome": "Internacional",
-            "cidade": "Porto Alegre",
+            "nome": "Red Bull Bragantino",
+            "cidade": "Bragança Paulista",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Mirassol",
+            "cidade": "Mirassol",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 19,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 20,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Ituano",
+            "cidade": "Itu",
             "coordenadaX": 0,
             "coordenadaY": 0,
             "cluster": "D",
@@ -1129,8 +3700,271 @@
           },
           "visitante": {
             "id": 0,
-            "nome": "Vasco",
-            "cidade": "Rio de Janeiro",
+            "nome": "Corinthians",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 20,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Santo André",
+            "cidade": "Santo André",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Novorizontino",
+            "cidade": "Novo Horizonte",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 20,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Botafogo-SP",
+            "cidade": "Ribeirão Preto",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Red Bull Bragantino",
+            "cidade": "Bragança Paulista",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 20,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Mirassol",
+            "cidade": "Mirassol",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Água Santa",
+            "cidade": "Diadema",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 20,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 17,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "São Paulo",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Guarani",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 17,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Portuguesa",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Inter de Limeira",
+            "cidade": "Limeira",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 17,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Santos",
+            "cidade": "Santos",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Ferroviária",
+            "cidade": "Araraquara",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 17,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Ponte Preta",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Palmeiras",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 17,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 18,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Guarani",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Portuguesa",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 18,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Inter de Limeira",
+            "cidade": "Limeira",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Santos",
+            "cidade": "Santos",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 18,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Ferroviária",
+            "cidade": "Araraquara",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Ponte Preta",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 18,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Palmeiras",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "São Paulo",
+            "cidade": "São Paulo",
             "coordenadaX": 0,
             "coordenadaY": 0,
             "cluster": "B",
@@ -1148,54 +3982,8 @@
         {
           "mandante": {
             "id": 0,
-            "nome": "Atletico-MG",
-            "cidade": "Belo Horizonte",
-            "coordenadaX": 0,
-            "coordenadaY": 0,
-            "cluster": "C",
-            "grupo": null
-          },
-          "visitante": {
-            "id": 0,
-            "nome": "Corinthians",
-            "cidade": "São Paulo",
-            "coordenadaX": 0,
-            "coordenadaY": 0,
-            "cluster": "A",
-            "grupo": null
-          },
-          "rodada": 19,
-          "data": null,
-          "local": null
-        },
-        {
-          "mandante": {
-            "id": 0,
-            "nome": "Sao Paulo",
-            "cidade": "Sao Paulo",
-            "coordenadaX": 0,
-            "coordenadaY": 0,
-            "cluster": "A",
-            "grupo": null
-          },
-          "visitante": {
-            "id": 0,
-            "nome": "Fortaleza",
-            "cidade": "Fortaleza",
-            "coordenadaX": 0,
-            "coordenadaY": 0,
-            "cluster": "E",
-            "grupo": null
-          },
-          "rodada": 19,
-          "data": null,
-          "local": null
-        },
-        {
-          "mandante": {
-            "id": 0,
-            "nome": "Vasco",
-            "cidade": "Rio de Janeiro",
+            "nome": "Santos",
+            "cidade": "Santos",
             "coordenadaX": 0,
             "coordenadaY": 0,
             "cluster": "B",
@@ -1203,11 +3991,11 @@
           },
           "visitante": {
             "id": 0,
-            "nome": "Flamengo",
-            "cidade": "Rio de Janeiro",
+            "nome": "Guarani",
+            "cidade": "Campinas",
             "coordenadaX": 0,
             "coordenadaY": 0,
-            "cluster": "B",
+            "cluster": "D",
             "grupo": null
           },
           "rodada": 19,
@@ -1217,8 +4005,8 @@
         {
           "mandante": {
             "id": 0,
-            "nome": "Internacional",
-            "cidade": "Porto Alegre",
+            "nome": "Ponte Preta",
+            "cidade": "Campinas",
             "coordenadaX": 0,
             "coordenadaY": 0,
             "cluster": "D",
@@ -1226,11 +4014,57 @@
           },
           "visitante": {
             "id": 0,
-            "nome": "Cruzeiro",
-            "cidade": "Belo Horizonte",
+            "nome": "Inter de Limeira",
+            "cidade": "Limeira",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 19,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "São Paulo",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Ferroviária",
+            "cidade": "Araraquara",
             "coordenadaX": 0,
             "coordenadaY": 0,
             "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 19,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Portuguesa",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Palmeiras",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
             "grupo": null
           },
           "rodada": 19,
@@ -1245,63 +4079,17 @@
         {
           "mandante": {
             "id": 0,
-            "nome": "Corinthians",
-            "cidade": "São Paulo",
+            "nome": "Guarani",
+            "cidade": "Campinas",
             "coordenadaX": 0,
             "coordenadaY": 0,
-            "cluster": "A",
+            "cluster": "D",
             "grupo": null
           },
           "visitante": {
             "id": 0,
-            "nome": "Sao Paulo",
-            "cidade": "Sao Paulo",
-            "coordenadaX": 0,
-            "coordenadaY": 0,
-            "cluster": "A",
-            "grupo": null
-          },
-          "rodada": 20,
-          "data": null,
-          "local": null
-        },
-        {
-          "mandante": {
-            "id": 0,
-            "nome": "Atletico-MG",
-            "cidade": "Belo Horizonte",
-            "coordenadaX": 0,
-            "coordenadaY": 0,
-            "cluster": "C",
-            "grupo": null
-          },
-          "visitante": {
-            "id": 0,
-            "nome": "Vasco",
-            "cidade": "Rio de Janeiro",
-            "coordenadaX": 0,
-            "coordenadaY": 0,
-            "cluster": "B",
-            "grupo": null
-          },
-          "rodada": 20,
-          "data": null,
-          "local": null
-        },
-        {
-          "mandante": {
-            "id": 0,
-            "nome": "Fortaleza",
-            "cidade": "Fortaleza",
-            "coordenadaX": 0,
-            "coordenadaY": 0,
-            "cluster": "E",
-            "grupo": null
-          },
-          "visitante": {
-            "id": 0,
-            "nome": "Internacional",
-            "cidade": "Porto Alegre",
+            "nome": "Ponte Preta",
+            "cidade": "Campinas",
             "coordenadaX": 0,
             "coordenadaY": 0,
             "cluster": "D",
@@ -1314,8 +4102,8 @@
         {
           "mandante": {
             "id": 0,
-            "nome": "Flamengo",
-            "cidade": "Rio de Janeiro",
+            "nome": "Inter de Limeira",
+            "cidade": "Limeira",
             "coordenadaX": 0,
             "coordenadaY": 0,
             "cluster": "B",
@@ -1323,11 +4111,57 @@
           },
           "visitante": {
             "id": 0,
-            "nome": "Cruzeiro",
-            "cidade": "Belo Horizonte",
+            "nome": "São Paulo",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 20,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Ferroviária",
+            "cidade": "Araraquara",
             "coordenadaX": 0,
             "coordenadaY": 0,
             "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Portuguesa",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 20,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Palmeiras",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Santos",
+            "cidade": "Santos",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
             "grupo": null
           },
           "rodada": 20,
@@ -1342,31 +4176,8 @@
         {
           "mandante": {
             "id": 0,
-            "nome": "Vasco",
-            "cidade": "Rio de Janeiro",
-            "coordenadaX": 0,
-            "coordenadaY": 0,
-            "cluster": "B",
-            "grupo": null
-          },
-          "visitante": {
-            "id": 0,
-            "nome": "Corinthians",
-            "cidade": "São Paulo",
-            "coordenadaX": 0,
-            "coordenadaY": 0,
-            "cluster": "A",
-            "grupo": null
-          },
-          "rodada": 21,
-          "data": null,
-          "local": null
-        },
-        {
-          "mandante": {
-            "id": 0,
-            "nome": "Internacional",
-            "cidade": "Porto Alegre",
+            "nome": "Guarani",
+            "cidade": "Campinas",
             "coordenadaX": 0,
             "coordenadaY": 0,
             "cluster": "D",
@@ -1374,11 +4185,11 @@
           },
           "visitante": {
             "id": 0,
-            "nome": "Sao Paulo",
-            "cidade": "Sao Paulo",
+            "nome": "Ituano",
+            "cidade": "Itu",
             "coordenadaX": 0,
             "coordenadaY": 0,
-            "cluster": "A",
+            "cluster": "D",
             "grupo": null
           },
           "rodada": 21,
@@ -1388,31 +4199,8 @@
         {
           "mandante": {
             "id": 0,
-            "nome": "Cruzeiro",
-            "cidade": "Belo Horizonte",
-            "coordenadaX": 0,
-            "coordenadaY": 0,
-            "cluster": "C",
-            "grupo": null
-          },
-          "visitante": {
-            "id": 0,
-            "nome": "Atletico-MG",
-            "cidade": "Belo Horizonte",
-            "coordenadaX": 0,
-            "coordenadaY": 0,
-            "cluster": "C",
-            "grupo": null
-          },
-          "rodada": 21,
-          "data": null,
-          "local": null
-        },
-        {
-          "mandante": {
-            "id": 0,
-            "nome": "Flamengo",
-            "cidade": "Rio de Janeiro",
+            "nome": "Inter de Limeira",
+            "cidade": "Limeira",
             "coordenadaX": 0,
             "coordenadaY": 0,
             "cluster": "B",
@@ -1420,11 +4208,57 @@
           },
           "visitante": {
             "id": 0,
-            "nome": "Fortaleza",
-            "cidade": "Fortaleza",
+            "nome": "Santo André",
+            "cidade": "Santo André",
             "coordenadaX": 0,
             "coordenadaY": 0,
-            "cluster": "E",
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 21,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Ferroviária",
+            "cidade": "Araraquara",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Botafogo-SP",
+            "cidade": "Ribeirão Preto",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 21,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Palmeiras",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Mirassol",
+            "cidade": "Mirassol",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
             "grupo": null
           },
           "rodada": 21,
@@ -1439,6 +4273,366 @@
         {
           "mandante": {
             "id": 0,
+            "nome": "Ituano",
+            "cidade": "Itu",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Inter de Limeira",
+            "cidade": "Limeira",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 22,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Santo André",
+            "cidade": "Santo André",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Ferroviária",
+            "cidade": "Araraquara",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 22,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Botafogo-SP",
+            "cidade": "Ribeirão Preto",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Palmeiras",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 22,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Mirassol",
+            "cidade": "Mirassol",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Guarani",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 22,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 23,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Ferroviária",
+            "cidade": "Araraquara",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Ituano",
+            "cidade": "Itu",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 23,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Palmeiras",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Santo André",
+            "cidade": "Santo André",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 23,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Guarani",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Botafogo-SP",
+            "cidade": "Ribeirão Preto",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 23,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Inter de Limeira",
+            "cidade": "Limeira",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Mirassol",
+            "cidade": "Mirassol",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 23,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 24,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Ituano",
+            "cidade": "Itu",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Palmeiras",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 24,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Santo André",
+            "cidade": "Santo André",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Guarani",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 24,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Botafogo-SP",
+            "cidade": "Ribeirão Preto",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Inter de Limeira",
+            "cidade": "Limeira",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 24,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Mirassol",
+            "cidade": "Mirassol",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Ferroviária",
+            "cidade": "Araraquara",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 24,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 21,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Novorizontino",
+            "cidade": "Novo Horizonte",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "São Paulo",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 21,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Red Bull Bragantino",
+            "cidade": "Bragança Paulista",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Portuguesa",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 21,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Água Santa",
+            "cidade": "Diadema",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Santos",
+            "cidade": "Santos",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 21,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
             "nome": "Corinthians",
             "cidade": "São Paulo",
             "coordenadaX": 0,
@@ -1448,22 +4642,27 @@
           },
           "visitante": {
             "id": 0,
-            "nome": "Internacional",
-            "cidade": "Porto Alegre",
+            "nome": "Ponte Preta",
+            "cidade": "Campinas",
             "coordenadaX": 0,
             "coordenadaY": 0,
             "cluster": "D",
             "grupo": null
           },
-          "rodada": 22,
+          "rodada": 21,
           "data": null,
           "local": null
-        },
+        }
+      ]
+    },
+    {
+      "numeroRodada": 22,
+      "jogos": [
         {
           "mandante": {
             "id": 0,
-            "nome": "Vasco",
-            "cidade": "Rio de Janeiro",
+            "nome": "São Paulo",
+            "cidade": "São Paulo",
             "coordenadaX": 0,
             "coordenadaY": 0,
             "cluster": "B",
@@ -1471,8 +4670,8 @@
           },
           "visitante": {
             "id": 0,
-            "nome": "Cruzeiro",
-            "cidade": "Belo Horizonte",
+            "nome": "Red Bull Bragantino",
+            "cidade": "Bragança Paulista",
             "coordenadaX": 0,
             "coordenadaY": 0,
             "cluster": "C",
@@ -1485,8 +4684,105 @@
         {
           "mandante": {
             "id": 0,
-            "nome": "Sao Paulo",
-            "cidade": "Sao Paulo",
+            "nome": "Portuguesa",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Água Santa",
+            "cidade": "Diadema",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 22,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Santos",
+            "cidade": "Santos",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Corinthians",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 22,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Ponte Preta",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Novorizontino",
+            "cidade": "Novo Horizonte",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 22,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 23,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Água Santa",
+            "cidade": "Diadema",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "São Paulo",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 23,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Corinthians",
+            "cidade": "São Paulo",
             "coordenadaX": 0,
             "coordenadaY": 0,
             "cluster": "A",
@@ -1494,22 +4790,45 @@
           },
           "visitante": {
             "id": 0,
-            "nome": "Flamengo",
-            "cidade": "Rio de Janeiro",
+            "nome": "Portuguesa",
+            "cidade": "São Paulo",
             "coordenadaX": 0,
             "coordenadaY": 0,
-            "cluster": "B",
+            "cluster": "D",
             "grupo": null
           },
-          "rodada": 22,
+          "rodada": 23,
           "data": null,
           "local": null
         },
         {
           "mandante": {
             "id": 0,
-            "nome": "Atletico-MG",
-            "cidade": "Belo Horizonte",
+            "nome": "Novorizontino",
+            "cidade": "Novo Horizonte",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Santos",
+            "cidade": "Santos",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 23,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Red Bull Bragantino",
+            "cidade": "Bragança Paulista",
             "coordenadaX": 0,
             "coordenadaY": 0,
             "cluster": "C",
@@ -1517,14 +4836,2439 @@
           },
           "visitante": {
             "id": 0,
-            "nome": "Fortaleza",
-            "cidade": "Fortaleza",
+            "nome": "Ponte Preta",
+            "cidade": "Campinas",
             "coordenadaX": 0,
             "coordenadaY": 0,
-            "cluster": "E",
+            "cluster": "D",
             "grupo": null
           },
-          "rodada": 22,
+          "rodada": 23,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 24,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "São Paulo",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Corinthians",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 24,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Portuguesa",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Novorizontino",
+            "cidade": "Novo Horizonte",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 24,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Santos",
+            "cidade": "Santos",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Red Bull Bragantino",
+            "cidade": "Bragança Paulista",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 24,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Ponte Preta",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Água Santa",
+            "cidade": "Diadema",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 24,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 49,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Ituano",
+            "cidade": "Itu",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "São Paulo",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 49,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Santo André",
+            "cidade": "Santo André",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Portuguesa",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 49,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Botafogo-SP",
+            "cidade": "Ribeirão Preto",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Santos",
+            "cidade": "Santos",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 49,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Mirassol",
+            "cidade": "Mirassol",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Ponte Preta",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 49,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 50,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "São Paulo",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Santo André",
+            "cidade": "Santo André",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 50,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Portuguesa",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Botafogo-SP",
+            "cidade": "Ribeirão Preto",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 50,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Santos",
+            "cidade": "Santos",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Mirassol",
+            "cidade": "Mirassol",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 50,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Ponte Preta",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Ituano",
+            "cidade": "Itu",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 50,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 51,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Botafogo-SP",
+            "cidade": "Ribeirão Preto",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "São Paulo",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 51,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Mirassol",
+            "cidade": "Mirassol",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Portuguesa",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 51,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Ituano",
+            "cidade": "Itu",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Santos",
+            "cidade": "Santos",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 51,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Santo André",
+            "cidade": "Santo André",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Ponte Preta",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 51,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 52,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "São Paulo",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Mirassol",
+            "cidade": "Mirassol",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 52,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Portuguesa",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Ituano",
+            "cidade": "Itu",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 52,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Santos",
+            "cidade": "Santos",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Santo André",
+            "cidade": "Santo André",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 52,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Ponte Preta",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Botafogo-SP",
+            "cidade": "Ribeirão Preto",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 52,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 49,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Novorizontino",
+            "cidade": "Novo Horizonte",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Guarani",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 49,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Red Bull Bragantino",
+            "cidade": "Bragança Paulista",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Inter de Limeira",
+            "cidade": "Limeira",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 49,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Água Santa",
+            "cidade": "Diadema",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Ferroviária",
+            "cidade": "Araraquara",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 49,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Corinthians",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Palmeiras",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 49,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 50,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Guarani",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Red Bull Bragantino",
+            "cidade": "Bragança Paulista",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 50,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Inter de Limeira",
+            "cidade": "Limeira",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Água Santa",
+            "cidade": "Diadema",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 50,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Ferroviária",
+            "cidade": "Araraquara",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Corinthians",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 50,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Palmeiras",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Novorizontino",
+            "cidade": "Novo Horizonte",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 50,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 51,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Água Santa",
+            "cidade": "Diadema",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Guarani",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 51,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Corinthians",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Inter de Limeira",
+            "cidade": "Limeira",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 51,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Novorizontino",
+            "cidade": "Novo Horizonte",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Ferroviária",
+            "cidade": "Araraquara",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 51,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Red Bull Bragantino",
+            "cidade": "Bragança Paulista",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Palmeiras",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 51,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 52,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Guarani",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Corinthians",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 52,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Inter de Limeira",
+            "cidade": "Limeira",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Novorizontino",
+            "cidade": "Novo Horizonte",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 52,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Ferroviária",
+            "cidade": "Araraquara",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Red Bull Bragantino",
+            "cidade": "Bragança Paulista",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 52,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Palmeiras",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Água Santa",
+            "cidade": "Diadema",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 52,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 53,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Ituano",
+            "cidade": "Itu",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Novorizontino",
+            "cidade": "Novo Horizonte",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 53,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Santo André",
+            "cidade": "Santo André",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Red Bull Bragantino",
+            "cidade": "Bragança Paulista",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 53,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Botafogo-SP",
+            "cidade": "Ribeirão Preto",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Água Santa",
+            "cidade": "Diadema",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 53,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Mirassol",
+            "cidade": "Mirassol",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Corinthians",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 53,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 54,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Novorizontino",
+            "cidade": "Novo Horizonte",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Santo André",
+            "cidade": "Santo André",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 54,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Red Bull Bragantino",
+            "cidade": "Bragança Paulista",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Botafogo-SP",
+            "cidade": "Ribeirão Preto",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 54,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Água Santa",
+            "cidade": "Diadema",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Mirassol",
+            "cidade": "Mirassol",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 54,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Corinthians",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Ituano",
+            "cidade": "Itu",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 54,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 55,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Botafogo-SP",
+            "cidade": "Ribeirão Preto",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Novorizontino",
+            "cidade": "Novo Horizonte",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 55,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Mirassol",
+            "cidade": "Mirassol",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Red Bull Bragantino",
+            "cidade": "Bragança Paulista",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 55,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Ituano",
+            "cidade": "Itu",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Água Santa",
+            "cidade": "Diadema",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 55,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Santo André",
+            "cidade": "Santo André",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Corinthians",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 55,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 56,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Novorizontino",
+            "cidade": "Novo Horizonte",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Mirassol",
+            "cidade": "Mirassol",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 56,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Red Bull Bragantino",
+            "cidade": "Bragança Paulista",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Ituano",
+            "cidade": "Itu",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 56,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Água Santa",
+            "cidade": "Diadema",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Santo André",
+            "cidade": "Santo André",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 56,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Corinthians",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Botafogo-SP",
+            "cidade": "Ribeirão Preto",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 56,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 53,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Guarani",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "São Paulo",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 53,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Inter de Limeira",
+            "cidade": "Limeira",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Portuguesa",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 53,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Ferroviária",
+            "cidade": "Araraquara",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Santos",
+            "cidade": "Santos",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 53,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Palmeiras",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Ponte Preta",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 53,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 54,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "São Paulo",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Inter de Limeira",
+            "cidade": "Limeira",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 54,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Portuguesa",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Ferroviária",
+            "cidade": "Araraquara",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 54,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Santos",
+            "cidade": "Santos",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Palmeiras",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 54,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Ponte Preta",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Guarani",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 54,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 55,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Ferroviária",
+            "cidade": "Araraquara",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "São Paulo",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 55,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Palmeiras",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Portuguesa",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 55,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Guarani",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Santos",
+            "cidade": "Santos",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 55,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Inter de Limeira",
+            "cidade": "Limeira",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Ponte Preta",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 55,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 56,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "São Paulo",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Palmeiras",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 56,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Portuguesa",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Guarani",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 56,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Santos",
+            "cidade": "Santos",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Inter de Limeira",
+            "cidade": "Limeira",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 56,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Ponte Preta",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Ferroviária",
+            "cidade": "Araraquara",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 56,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 57,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Ituano",
+            "cidade": "Itu",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Guarani",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 57,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Santo André",
+            "cidade": "Santo André",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Inter de Limeira",
+            "cidade": "Limeira",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 57,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Botafogo-SP",
+            "cidade": "Ribeirão Preto",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Ferroviária",
+            "cidade": "Araraquara",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 57,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Mirassol",
+            "cidade": "Mirassol",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Palmeiras",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 57,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 58,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Guarani",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Santo André",
+            "cidade": "Santo André",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 58,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Inter de Limeira",
+            "cidade": "Limeira",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Botafogo-SP",
+            "cidade": "Ribeirão Preto",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 58,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Ferroviária",
+            "cidade": "Araraquara",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Mirassol",
+            "cidade": "Mirassol",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 58,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Palmeiras",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Ituano",
+            "cidade": "Itu",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 58,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 59,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Botafogo-SP",
+            "cidade": "Ribeirão Preto",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Guarani",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 59,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Mirassol",
+            "cidade": "Mirassol",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Inter de Limeira",
+            "cidade": "Limeira",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 59,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Ituano",
+            "cidade": "Itu",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Ferroviária",
+            "cidade": "Araraquara",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 59,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Santo André",
+            "cidade": "Santo André",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Palmeiras",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 59,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 60,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Guarani",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Mirassol",
+            "cidade": "Mirassol",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 60,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Inter de Limeira",
+            "cidade": "Limeira",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Ituano",
+            "cidade": "Itu",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 60,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Ferroviária",
+            "cidade": "Araraquara",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Santo André",
+            "cidade": "Santo André",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 60,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Palmeiras",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Botafogo-SP",
+            "cidade": "Ribeirão Preto",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 60,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 57,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "São Paulo",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Novorizontino",
+            "cidade": "Novo Horizonte",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 57,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Portuguesa",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Red Bull Bragantino",
+            "cidade": "Bragança Paulista",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 57,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Santos",
+            "cidade": "Santos",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Água Santa",
+            "cidade": "Diadema",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 57,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Ponte Preta",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Corinthians",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 57,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 58,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Novorizontino",
+            "cidade": "Novo Horizonte",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Portuguesa",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 58,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Red Bull Bragantino",
+            "cidade": "Bragança Paulista",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Santos",
+            "cidade": "Santos",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 58,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Água Santa",
+            "cidade": "Diadema",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Ponte Preta",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 58,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Corinthians",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "São Paulo",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 58,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 59,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Santos",
+            "cidade": "Santos",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Novorizontino",
+            "cidade": "Novo Horizonte",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 59,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Ponte Preta",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Red Bull Bragantino",
+            "cidade": "Bragança Paulista",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "rodada": 59,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "São Paulo",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Água Santa",
+            "cidade": "Diadema",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 59,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Portuguesa",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Corinthians",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "rodada": 59,
+          "data": null,
+          "local": null
+        }
+      ]
+    },
+    {
+      "numeroRodada": 60,
+      "jogos": [
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Novorizontino",
+            "cidade": "Novo Horizonte",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Ponte Preta",
+            "cidade": "Campinas",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 60,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Red Bull Bragantino",
+            "cidade": "Bragança Paulista",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "C",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "São Paulo",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 60,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Água Santa",
+            "cidade": "Diadema",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Portuguesa",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "D",
+            "grupo": null
+          },
+          "rodada": 60,
+          "data": null,
+          "local": null
+        },
+        {
+          "mandante": {
+            "id": 0,
+            "nome": "Corinthians",
+            "cidade": "São Paulo",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "A",
+            "grupo": null
+          },
+          "visitante": {
+            "id": 0,
+            "nome": "Santos",
+            "cidade": "Santos",
+            "coordenadaX": 0,
+            "coordenadaY": 0,
+            "cluster": "B",
+            "grupo": null
+          },
+          "rodada": 60,
           "data": null,
           "local": null
         }

@@ -1,13 +1,10 @@
 package com.tabelao.model;
 
 import com.tabelao.util.algoritmos.RoundRobin;
-import com.tabelao.util.enums.TiposDeTabela;
-
 import java.util.ArrayList;
+import java.util.Deque;
+import java.util.LinkedList;
 import java.util.List;
-import java.util.Random;
-import java.util.stream.IntStream;
-
 import static java.lang.Math.random;
 
 public class Campeonato {
@@ -85,34 +82,41 @@ public class Campeonato {
     }
 
     public List<Rodada> gerarTabela(){
-        gerarJogosDentroDoGrupo();
-        gerarJogosEntreGruposDiferentes();
+        int qtdeRodadasCriadas = 0;
+        rodadas.addAll(gerarJogosDentroDoGrupo(qtdeRodadasCriadas));
+        rodadas.addAll(gerarJogosEntreGruposDiferentes());
         return rodadas;
     }
 
-
-    public void gerarJogosDentroDoGrupo(){
+    public List<Rodada> gerarJogosDentroDoGrupo(int qtdeRodadasCriadas){
+        List<Rodada> r = new ArrayList<>();
         if (qtdeTurnosDentro > 0) {
             for(int i = 0; i < qtdeTurnosDentro; i++){
                 for (Grupo grupo : grupos) {
                     boolean inverterMando = (i % 2) == 1;
-                    rodadas.addAll(RoundRobin.gerarRodadas(grupo, inverterMando, rodadas.size()));
+                    if (i > 0) qtdeRodadasCriadas = rodadas.size();
+                    r.addAll(RoundRobin.gerarRodadas(grupo, inverterMando, qtdeRodadasCriadas));
                 }
             }
         }
+        return r;
     }
 
-    public void gerarJogosEntreGruposDiferentes(){
-        Grupo grupao = new Grupo();
-        if (qtdeTurnosFora >0) {
-            for(int i = 0; i < qtdeTurnosFora; i++) {
-                for(Grupo grupo :  grupos) {
-                    grupao.concatenarEquipesDeOutroGrupo(grupo.getEquipes());
-                    boolean inverterMando = (i % 2) == 1;
-                    rodadas.addAll(RoundRobin.gerarRodadas(grupao, inverterMando, rodadas.size()));
-                }
+    public List<Rodada> gerarJogosEntreGruposDiferentes(){
+        List<Rodada> r = new ArrayList<>();
+        int qtdeRodadasCriadas = 0;
+        if(qtdeTurnosFora > 0){
+            Deque<Grupo> filaGrupos = new LinkedList<>();
+            filaGrupos.addAll(grupos);
+            for(int i = 0; i < qtdeTurnosFora; i++){
+                boolean inverterMando = (i % 2) == 1;
+                qtdeRodadasCriadas = rodadas.size();
+                if(i == 0 && !rodadas.isEmpty())
+                    qtdeRodadasCriadas = rodadas.size()/filaGrupos.size();
+                r.addAll(RoundRobin.cruzarEntreGrupos(filaGrupos, inverterMando, qtdeRodadasCriadas, false));
             }
         }
+        return r;
     }
 
 //GETTERS E SETTERS

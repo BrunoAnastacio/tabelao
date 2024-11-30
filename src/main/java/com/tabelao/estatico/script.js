@@ -1,14 +1,36 @@
+// fetch('http://localhost:8080/campeonato/gerar', {
+//     method: "GET",
+//     mode: 'cors', // Use 'cors' para permitir solicitações de diferentes origens
+// })
+//     .then(response => {
+//         if (!response.ok) {
+//             throw new Error(`Erro na solicitação: ${response.status}`);
+//         }
+//         return response.json(); // Converte a resposta para JSON
+//     })
+//     .then(data => {
+//         dadosTorneio = data;
+//         // Chame as funções para criar a interface
+//         criarListaEquipes(dadosTorneio);
+//         criarTabelaJogos(dadosTorneio);
+//     })
+//     .catch(error => {
+//         console.error('Erro ao carregar o arquivo JSON:', error);
+//     });
 
 fetch('dados.json')
-    .then(response => response.json())
-    .then(data => {
-        dadosTorneio = data;
-        // Chame as funções para criar a interface
-        criarListaEquipes(dadosTorneio);
-        criarTabelaJogos(dadosTorneio);
+    .then(response => {
+        if (!response.ok) {
+            throw new Error(`Erro ao carregar o JSON: ${response.status}`);
+        }
+        return response.json();
+    })
+    .then(dados => {
+        criarListaEquipes(dados);
+        criarTabelaJogos(dados);
     })
     .catch(error => {
-        console.error('Erro ao carregar o arquivo JSON:', error);
+        console.error('Erro:', error);
     });
 
 // Função para criar a lista de equipes

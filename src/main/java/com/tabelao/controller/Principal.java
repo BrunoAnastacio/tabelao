@@ -13,10 +13,12 @@ import java.util.List;
 
 @RestController
 @RequestMapping(value = "/campeonato", produces ="application/json", consumes = "application/json")
+@CrossOrigin(origins = "http://localhost:63342")
 public class Principal {
 
-    @PostMapping("/gerar")
+    @GetMapping("/gerar")
     @ResponseBody
+
     public DtoResponseCampeonatoCriado gerarCampeonato(@RequestBody DtoDadosCampeonato request){
         List<Equipe> equipes = new ArrayList<>();
         for (DtoEquipe dtoEquipe:request.equipes()) {
@@ -34,9 +36,8 @@ public class Principal {
         //gerando campeonato
         List<Grupo> grupos = campeonato.sortearGrupos();
         List<Rodada> rodadas = campeonato.gerarTabela();
-        DtoResponseCampeonatoCriado campeonatoCriado = new DtoResponseCampeonatoCriado(grupos, rodadas);
 
-        return campeonatoCriado;
+        return new DtoResponseCampeonatoCriado(grupos, rodadas);
 
     }
 

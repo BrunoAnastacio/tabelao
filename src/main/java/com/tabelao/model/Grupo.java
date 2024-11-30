@@ -1,11 +1,13 @@
 package com.tabelao.model;
 
 import java.util.ArrayList;
+import java.util.Deque;
+import java.util.LinkedList;
 import java.util.List;
 
 public class Grupo {
 
-    private List<Equipe> equipes = new ArrayList<>();
+    private Deque<Equipe> equipes = new LinkedList<>();
     private String nomeGrupo;
 
     public Grupo(String nomeGrupo, List<String> nomesEquipes) {
@@ -35,20 +37,20 @@ public class Grupo {
 
     public void addOrOverwrite(Equipe equipe){
         if(equipes.contains(equipe)){
-            equipes.add(equipe.getId(),equipe);
+            equipes.add(equipe);
         }
         else equipes.add(equipe);
     }
 
-    public void concatenarEquipesDeOutroGrupo(List<Equipe> equipes){
+    public void concatenarEquipesDeOutroGrupo(Deque<Equipe> equipes){
         this.equipes.addAll(equipes);
     }
 
-    public List<Equipe> getEquipes() {
+    public Deque <Equipe> getEquipes() {
         return equipes;
     }
 
-    public void setEquipes(List<Equipe> equipes) {
+    public void setEquipes(Deque <Equipe> equipes) {
         this.equipes = equipes;
     }
 
@@ -60,19 +62,48 @@ public class Grupo {
         this.nomeGrupo = nomeGrupo;
     }
 
-    public Equipe getEquipe(int i){
-        return this.equipes.get(i);
+    public Equipe getEquipe(int index){
+        return (Equipe) equipes.toArray()[index]; // Converte o deque para array para acessar pelo índice.
+
+//        //return equipes.get(i);
+//        if (i < 0 || i >= equipes.size()) {
+//            throw new IndexOutOfBoundsException("Índice inválido");
+//        }
+//
+//        int contador = 0;
+//        for (Equipe equipe : equipes) {
+//            if (contador == i) {
+//                return equipe;
+//            }
+//            contador++;
+//        }
+//
+//        // Se chegar aqui, algo está errado (deveria ter encontrado o elemento)
+//        //return null; // Ou lançar uma exceção mais específica
+//        throw new NullPointerException("Equipe não encontrada no grupo");
     }
 
     public void rotacionar(){
-        this.equipes.add(1,this.equipes.remove(this.equipes.size()-1));
+
+        //this.equipes.add(1,this.equipes.remove(this.equipes.size()-1));
+        if (equipes.size() > 1) {
+            // Remove o último elemento e insere no início (rotação no sentido anti-horário)
+            equipes.addFirst(equipes.removeLast());
+        }
     }
 
-    @Override
+        @Override
     public String toString() {
         return "Grupo{" +
-                "equipes=" + equipes +
-                ", nomeGrupo='" + nomeGrupo + '\'' +
+                "nomeGrupo=" + nomeGrupo +
                 '}';
     }
+
+//    @Override
+//    public String toString() {
+//        return "Grupo{" +
+//                "nomeGrupo=" + nomeGrupo +
+//                ", equipes=" + equipes + '\'' +
+//                '}';
+//    }
 }

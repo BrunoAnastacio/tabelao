@@ -1,0 +1,107 @@
+meta {
+  name: Campeonato Paulista
+  type: http
+  seq: 2
+}
+
+get {
+  url: http://localhost:8080/campeonato/gerar
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "nomeCampeonato": "Paulistao",
+    "equipes": [
+      {
+        "nome": "Palmeiras",
+        "cidadeTime": "São Paulo",
+        "cluster": "A"
+      },
+      {
+        "nome": "Corinthians",
+        "cidadeTime": "São Paulo",
+        "cluster": "A"
+      },
+      {
+        "nome": "Santos",
+        "cidadeTime": "Santos",
+        "cluster": "B"
+      },
+      {
+        "nome": "São Paulo",
+        "cidadeTime": "São Paulo",
+        "cluster": "B"
+      },
+      {
+        "nome": "Red Bull Bragantino",
+        "cidadeTime": "Bragança Paulista",
+        "cluster": "C"
+      },
+      {
+        "nome": "Ferroviária",
+        "cidadeTime": "Araraquara",
+        "cluster": "C"
+      },
+      {
+        "nome": "Guarani",
+        "cidadeTime": "Campinas",
+        "cluster": "D"
+      },
+      {
+        "nome": "Ponte Preta",
+        "cidadeTime": "Campinas",
+        "cluster": "D"
+      },
+      {
+        "nome": "Mirassol",
+        "cidadeTime": "Mirassol",
+        "cluster": "A"
+      },
+      {
+        "nome": "Novorizontino",
+        "cidadeTime": "Novo Horizonte",
+        "cluster": "A"
+      },
+      {
+        "nome": "Água Santa",
+        "cidadeTime": "Diadema",
+        "cluster": "B"
+      },
+      {
+        "nome": "Inter de Limeira",
+        "cidadeTime": "Limeira",
+        "cluster": "B"
+      },
+      {
+        "nome": "Botafogo-SP",
+        "cidadeTime": "Ribeirão Preto",
+        "cluster": "C"
+      },
+      {
+        "nome": "Santo André",
+        "cidadeTime": "Santo André",
+        "cluster": "C"
+      },
+      {
+        "nome": "Ituano",
+        "cidadeTime": "Itu",
+        "cluster": "D"
+      },
+      {
+        "nome": "Portuguesa",
+        "cidadeTime": "São Paulo",
+        "cluster": "D"
+      }
+    ],
+    "sortear": true,
+    "qtdeGrupos": 4,
+    "turnosDentroDoGrupo": 0,
+    "turnosEntreGrupos": 1,
+    "tabelaOtimizada": false,
+    "maxJogosPorDia": 2,
+    "minDiasDescanso": 4,
+    "diaDeInicio": "2025-01-15"
+  }
+}
