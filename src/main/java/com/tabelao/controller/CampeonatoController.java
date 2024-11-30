@@ -5,7 +5,6 @@ import com.tabelao.dto.DtoEquipe;
 import com.tabelao.dto.DtoResponseCampeonatoCriado;
 import com.tabelao.dto.DtoSorteio;
 import com.tabelao.model.*;
-import com.tabelao.util.enums.TiposDeTabela;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
@@ -14,7 +13,7 @@ import java.util.List;
 @RestController
 @RequestMapping(value = "/campeonato", produces ="application/json", consumes = "application/json")
 @CrossOrigin(origins = "http://localhost:63342")
-public class Principal {
+public class CampeonatoController {
 
     @GetMapping("/gerar")
     @ResponseBody

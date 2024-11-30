@@ -8,9 +8,6 @@ import java.util.List;
 
 public record DtoResponseCampeonatoCriado(
         List<Grupo> grupos,
-        //Tabela tabela
-
         List<Rodada> rodadas
-
 ) {
 }

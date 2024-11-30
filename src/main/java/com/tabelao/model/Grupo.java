@@ -64,30 +64,11 @@ public class Grupo {
 
     public Equipe getEquipe(int index){
         return (Equipe) equipes.toArray()[index]; // Converte o deque para array para acessar pelo índice.
-
-//        //return equipes.get(i);
-//        if (i < 0 || i >= equipes.size()) {
-//            throw new IndexOutOfBoundsException("Índice inválido");
-//        }
-//
-//        int contador = 0;
-//        for (Equipe equipe : equipes) {
-//            if (contador == i) {
-//                return equipe;
-//            }
-//            contador++;
-//        }
-//
-//        // Se chegar aqui, algo está errado (deveria ter encontrado o elemento)
-//        //return null; // Ou lançar uma exceção mais específica
-//        throw new NullPointerException("Equipe não encontrada no grupo");
     }
 
     public void rotacionar(){
 
-        //this.equipes.add(1,this.equipes.remove(this.equipes.size()-1));
         if (equipes.size() > 1) {
-            // Remove o último elemento e insere no início (rotação no sentido anti-horário)
             Equipe e = equipes.removeFirst();
             equipes.addFirst(equipes.removeLast());
             equipes.addFirst(e);

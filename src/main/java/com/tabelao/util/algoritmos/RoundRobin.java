@@ -47,7 +47,6 @@ public class RoundRobin {
             }
             rodadas.add(rodada);
             grupo.rotacionar();
-            System.out.println(grupo.toString());
         }
         return rodadas;
     }
