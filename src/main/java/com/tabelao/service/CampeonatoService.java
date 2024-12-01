@@ -106,6 +106,7 @@ public class CampeonatoService {
         }
         return rodadas;
     }
+    
 
     public List<Rodada> gerarJogosEntreGruposDiferentes(Campeonato campeonato, int qtdeRodadas){
         List<Rodada> rodadas = new ArrayList<>();
