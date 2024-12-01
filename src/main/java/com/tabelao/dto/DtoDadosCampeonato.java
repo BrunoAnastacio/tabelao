@@ -15,7 +15,8 @@ public record DtoDadosCampeonato (
         int turnosDentroDoGrupo,
         int turnosEntreGrupos,
         boolean tabelaOtimizada,
-        int maxJogosPorDia,
+        int maxJogosPorDia, //tirar. requisito atendido pela variavel "semana"
         int minDiasDescanso,
-        LocalDate diaDeInicio
+        LocalDate diaDeInicio,
+        List<DtoSemana> semana
 ) {}
