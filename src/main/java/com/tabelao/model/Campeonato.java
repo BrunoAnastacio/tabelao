@@ -1,6 +1,6 @@
 package com.tabelao.model;
 
-import com.tabelao.util.algoritmos.RoundRobin;
+import com.tabelao.util.algoritmos.GeradorRoundRobin;
 import java.util.ArrayList;
 import java.util.Deque;
 import java.util.LinkedList;

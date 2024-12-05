@@ -1,6 +1,7 @@
 package com.tabelao.util.algoritmos;
 
 import com.tabelao.dto.DtoDadosCampeonato;
+import com.tabelao.model.Jogo;
 import com.tabelao.model.Rodada;
 import org.springframework.stereotype.Component;
 
@@ -14,16 +15,16 @@ public class Scheduler {
     // -- Colocar todos os jogos de uma rodada em uma mesma data (ex: rodada 1: 12/06, rodada 2: 18/06, etc...
     // -- Agendar jogos de respeitando um limite diário. (ex: 2 jogos/dia - 12/06: Senegal x Italia, Brasil x Uruguai; 13/06: EUA x Ira, UK x Peru)
 
-    public List<Rodada> dumbSchedule(List<Rodada> rodadas, DtoDadosCampeonato request){
+    public List<Jogo> dumbSchedule(List<Jogo> jogos, DtoDadosCampeonato request){
 
         // cenário 1:
 
-        int numRodadas = rodadas.size();
+        int numRodadas = jogos.size();
         //para cada rodada
         //
 
 
-        return rodadas;
+        return jogos;
     }
 
     public List<Rodada> smartSchedule(List<Rodada> rodadas, DtoDadosCampeonato request){

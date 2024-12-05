@@ -3,11 +3,8 @@ package com.tabelao.service;
 import com.tabelao.dto.DtoDadosCampeonato;
 import com.tabelao.dto.DtoEquipe;
 import com.tabelao.dto.DtoResponseCampeonatoCriado;
-import com.tabelao.model.Campeonato;
-import com.tabelao.model.Equipe;
-import com.tabelao.model.Grupo;
-import com.tabelao.model.Rodada;
-import com.tabelao.util.algoritmos.RoundRobin;
+import com.tabelao.model.*;
+import com.tabelao.util.algoritmos.GeradorRoundRobin;
 import com.tabelao.util.algoritmos.Scheduler;
 import org.springframework.stereotype.Service;
 
@@ -44,11 +41,12 @@ public class CampeonatoService {
 
         //agendamento de jogos - Scheduler a implemementar
         if(request.tabelaOtimizada()) campeonato.setRodadas(scheduler.smartSchedule(campeonato.getRodadas(), request));
-        else campeonato.setRodadas(scheduler.dumbSchedule(campeonato.getRodadas(), request));
+        else campeonato.getTabela().setJogos(scheduler.dumbSchedule(campeonato.getTabela().getJogos(), request));
+
 
         //no futuro, persistir no banco de dados
 
-        return new DtoResponseCampeonatoCriado(campeonato.getGrupos(), campeonato.getRodadas());
+        return new DtoResponseCampeonatoCriado(campeonato.getGrupos(), campeonato.getTabela().getJogos());
     }
 
     public void sortearGrupos(Campeonato campeonato){
@@ -68,7 +66,6 @@ public class CampeonatoService {
             throw new RuntimeException("Numero de equipes precisa ser: 1) Um multiplo do numero de grupos; " +
                     "2) Suficiente para preencher cada grupo com 3 equipes ou mais");
         }
-
         campeonato.setGrupos(gruposCriados);
     }
 
@@ -85,42 +82,37 @@ public class CampeonatoService {
         return campeonato.getEquipes().get((int) (random() * campeonato.getEquipes().size()));
     }
 
-
-
     public void gerarRodadas(Campeonato campeonato){
-        int qtdeRodadasCriadas = 0;
-        campeonato.addRodadas(gerarJogosDentroDoGrupo(campeonato, qtdeRodadasCriadas));
-        campeonato.addRodadas(gerarJogosEntreGruposDiferentes(campeonato, qtdeRodadasCriadas));
+        gerarJogosDentroDoGrupo(campeonato);
+        gerarJogosEntreGruposDiferentes(campeonato);
     }
 
-    public List<Rodada> gerarJogosDentroDoGrupo(Campeonato campeonato, int qtdeRodadasCriadas){
-        List<Rodada> rodadas = new ArrayList<>();
+    public void gerarJogosDentroDoGrupo(Campeonato campeonato){
+        List<Jogo> jogosTurno = new ArrayList<>();
         if (campeonato.getQtdeTurnosDentro() > 0) {
-            for(int i = 0; i < campeonato.getQtdeTurnosDentro(); i++){
-                for (Grupo grupo : campeonato.getGrupos()) {
+            for(int i = 0; i < campeonato.getQtdeTurnosDentro(); i++) { //percorre cada turno
+                int qtdeRodadas = campeonato.getTabela().getQtdeRodadas();
+                List<Jogo> jogosGrupo = new ArrayList<>();
+                for (Grupo grupo : campeonato.getGrupos()) { //percorre cada grupo
                     boolean inverterMando = (i % 2) == 1;
-                    if (i > 0) qtdeRodadasCriadas = campeonato.getRodadas().size();
-                    rodadas.addAll(RoundRobin.gerarRodadas(grupo, inverterMando, qtdeRodadasCriadas));
+                    List<Jogo> jogos = GeradorRoundRobin.gerarJogosEntreTimesDoMesmoGrupo(campeonato.getTabela(), grupo, inverterMando, qtdeRodadas);
+                    jogosGrupo.addAll(jogos);
                 }
+                jogosTurno.addAll(jogosGrupo);
             }
         }
-        return rodadas;
+        campeonato.getTabela().setJogos(jogosTurno);
     }
 
-    public List<Rodada> gerarJogosEntreGruposDiferentes(Campeonato campeonato, int qtdeRodadas){
-        List<Rodada> rodadas = new ArrayList<>();
-        int qtdeRodadasCriadas = 0;
+    public void gerarJogosEntreGruposDiferentes(Campeonato campeonato){
+        List<Jogo> jogos = new ArrayList<>();
         if(campeonato.getQtdeTurnosFora() > 0){
             Deque<Grupo> filaGrupos = new LinkedList<>();
-            filaGrupos.addAll(campeonato.getGrupos());
-            for(int i = 0; i < campeonato.getQtdeTurnosFora(); i++){
+            filaGrupos.addAll(campeonato.getGrupos()); //fila para o round robin
+            for(int i = 0; i < campeonato.getQtdeTurnosFora(); i++){ //gera rodadas para cada turno
                 boolean inverterMando = (i % 2) == 1;
-                qtdeRodadasCriadas = campeonato.getRodadas().size();
-                if(i == 0 && !campeonato.getRodadas().isEmpty())
-                    qtdeRodadasCriadas = campeonato.getRodadas().size()/filaGrupos.size();
-                rodadas.addAll(RoundRobin.cruzarEntreGrupos(filaGrupos, inverterMando, qtdeRodadasCriadas, false));
+                campeonato.setTabela(GeradorRoundRobin.cruzarEntreGrupos(filaGrupos, campeonato.getTabela(), inverterMando, false));
             }
         }
-        return rodadas;
     }
 }

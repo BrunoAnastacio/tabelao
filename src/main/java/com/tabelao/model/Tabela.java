@@ -5,28 +5,47 @@ import java.util.List;
 
 public class Tabela {
 
-    private List<List<Rodada>> listaRodadas;
+    private List<Jogo> jogos;
+    private int qtdeRodadas;
 
-    public Tabela(){
-        this.listaRodadas = new ArrayList<>();
+    public Tabela(){}
+
+    public Tabela(List<Jogo> jogos, int qtdeRodadas) {
+        this.jogos = jogos;
+        this.qtdeRodadas = qtdeRodadas;
     }
 
-    public List<List<Rodada>> getListaRodadas() {
-        return listaRodadas;
+    public Tabela(int qtdeRodadas) {
+        this.jogos = new ArrayList<>();
+        this.qtdeRodadas = qtdeRodadas;
     }
 
-    public void setListaRodadas(List<List<Rodada>> listaRodadas) {
-        this.listaRodadas = listaRodadas;
+    public List<Jogo> getJogos() {
+        return jogos;
     }
 
-    public void add(List<Rodada> rodadas ){
-        this.listaRodadas.addLast(rodadas);
+    public void setJogos(List<Jogo> jogos) {
+        this.jogos = jogos;
     }
 
-    @Override
-    public String toString() {
-        return "Tabela{" +
-                "listaRodadas=" + listaRodadas +
-                '}';
+    public void addJogo(Jogo jogo){
+        this.jogos.add(jogo);
     }
+
+    public void addJogos(List<Jogo> jogos){
+        this.jogos.addAll(jogos);
+    }
+
+    public int getQtdeRodadas() {
+        return qtdeRodadas;
+    }
+
+    public void setQtdeRodadas(int qtdeRodadas) {
+        this.qtdeRodadas = qtdeRodadas;
+    }
+
+    public void addUmaRodada(){
+        this.qtdeRodadas ++;
+    }
+
 }
