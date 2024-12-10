@@ -1,4 +1,4 @@
 package com.tabelao.dto;
 
-public record DtoSemana(String diaSemana, int maxJogos) {
+public record DtoSemana(int[] semana) {
 }

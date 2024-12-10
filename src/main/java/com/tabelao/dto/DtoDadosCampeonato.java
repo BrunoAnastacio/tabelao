@@ -1,10 +1,13 @@
 package com.tabelao.dto;
 
-import com.tabelao.model.Equipe;
+import com.tabelao.model.Semana;
+import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;
+import java.util.Date;
 import java.util.List;
 
+//@Component
 public record DtoDadosCampeonato (
         String nomeCampeonato,
         List<DtoEquipe> equipes,
@@ -18,5 +21,9 @@ public record DtoDadosCampeonato (
         int maxJogosPorDia, //tirar. requisito atendido pela variavel "semana"
         int minDiasDescanso,
         LocalDate diaDeInicio,
-        List<DtoSemana> semana
-) {}
+        int[] semana,
+        LocalDate[] datasBloqueadas
+        ) {
+
+}
+

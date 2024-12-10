@@ -6,6 +6,7 @@ import com.tabelao.dto.DtoResponseCampeonatoCriado;
 import com.tabelao.model.*;
 import com.tabelao.util.algoritmos.GeradorRoundRobin;
 import com.tabelao.util.algoritmos.Scheduler;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -18,9 +19,8 @@ import static java.lang.Math.random;
 @Service
 public class CampeonatoService {
 
-    Scheduler scheduler = new Scheduler();
-
     public DtoResponseCampeonatoCriado gerarCampeonato(DtoDadosCampeonato request){
+        Scheduler scheduler = new Scheduler();
         List<Equipe> equipes = new ArrayList<>();
 
         for (DtoEquipe dtoEquipe:request.equipes()) {
@@ -40,7 +40,7 @@ public class CampeonatoService {
         gerarRodadas(campeonato);
 
         //agendamento de jogos - Scheduler a implemementar
-        if(request.tabelaOtimizada()) campeonato.setRodadas(scheduler.smartSchedule(campeonato.getRodadas(), request));
+        if(request.tabelaOtimizada()) campeonato.getTabela().setJogos(scheduler.smartSchedule(campeonato.getTabela().getJogos(), request));
         else campeonato.getTabela().setJogos(scheduler.dumbSchedule(campeonato.getTabela().getJogos(), request));
 
 

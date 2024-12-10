@@ -53,20 +53,27 @@ function criarListaEquipes(dados) {
 // Função para criar a tabela de jogos
 function criarTabelaJogos(dados) {
     const corpoTabela = document.getElementById('corpo-tabela');
-    dados.rodadas.forEach(rodada => {
-        rodada.jogos.forEach(jogo => {
+
+    dados.jogos.forEach(jogo => {
             const tr = document.createElement('tr');
+
             const tdRodada = document.createElement('td');
-            tdRodada.textContent = rodada.numeroRodada;
+            tdRodada.textContent = jogo.rodada;
+
+            const tdData = document.createElement('td');
+            tdData.textContent = jogo.data;
+
             const tdMandante = document.createElement('td');
             tdMandante.textContent = jogo.mandante ? jogo.mandante.nome : '';
+
             const tdVisitante = document.createElement('td');
             tdVisitante.textContent = jogo.visitante ? jogo.visitante.nome : '';
+
             tr.appendChild(tdRodada);
+            tr.appendChild(tdData);
             tr.appendChild(tdMandante);
             tr.appendChild(tdVisitante);
             corpoTabela.appendChild(tr);
-        });
     });
 }
 

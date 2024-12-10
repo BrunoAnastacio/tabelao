@@ -6,6 +6,9 @@ import com.tabelao.service.CampeonatoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.time.DayOfWeek;
+import java.util.Calendar;
+
 @RestController
 @RequestMapping(value = "/campeonato", produces ="application/json", consumes = "application/json")
 @CrossOrigin(origins = "http://localhost:63342")

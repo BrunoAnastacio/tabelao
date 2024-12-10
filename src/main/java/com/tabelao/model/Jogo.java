@@ -1,16 +1,17 @@
 package com.tabelao.model;
 
+import java.time.LocalDate;
 import java.util.Date;
 
-public class Jogo {
+public class Jogo implements Comparable<Jogo>{
 
     private Equipe mandante;
     private Equipe visitante;
     private int rodada;
-    private Date data;
+    private LocalDate data;
     private Local local;
 
-    public Jogo(Equipe mandante, Equipe visitante, int rodada, Date data, Local local) {
+    public Jogo(Equipe mandante, Equipe visitante, int rodada, LocalDate data, Local local) {
         this.mandante = mandante;
         this.visitante = visitante;
         this.rodada = rodada;
@@ -57,11 +58,11 @@ public class Jogo {
         this.rodada = rodada;
     }
 
-    public Date getData() {
+    public LocalDate getData() {
         return data;
     }
 
-    public void setData(Date data) {
+    public void setData(LocalDate data) {
         this.data = data;
     }
 
@@ -71,6 +72,11 @@ public class Jogo {
 
     public void setLocal(Local local) {
         this.local = local;
+    }
+
+    @Override
+    public int compareTo(Jogo outro) {
+        return Integer.compare(this.rodada, outro.rodada);
     }
 
     @Override

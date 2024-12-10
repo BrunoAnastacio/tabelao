@@ -2,34 +2,55 @@ package com.tabelao.util.algoritmos;
 
 import com.tabelao.dto.DtoDadosCampeonato;
 import com.tabelao.model.Jogo;
-import com.tabelao.model.Rodada;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import java.util.List;
+import java.time.DayOfWeek;
+import java.time.LocalDate;
+import java.util.*;
 
 @Component
 public class Scheduler {
 
-    //Algoritmo de agendamento que deve consultar uma Tabela e definir datas para todos os jogos
-    //Implementar as seguintes opções:
-    // -- Colocar todos os jogos de uma rodada em uma mesma data (ex: rodada 1: 12/06, rodada 2: 18/06, etc...
-    // -- Agendar jogos de respeitando um limite diário. (ex: 2 jogos/dia - 12/06: Senegal x Italia, Brasil x Uruguai; 13/06: EUA x Ira, UK x Peru)
+    public List<Jogo> dumbSchedule(List<Jogo> jogos, DtoDadosCampeonato request) {
 
-    public List<Jogo> dumbSchedule(List<Jogo> jogos, DtoDadosCampeonato request){
+        Collections.sort(jogos);
+        List<Jogo> jogosAgendados = new ArrayList<>();
+        LocalDate dia = request.diaDeInicio(); // Dia de início do campeonato
+        int[] semanaOriginal = request.semana(); // Configuração semanal original
+        int[] semana = semanaOriginal.clone(); // Clonar para controlar a capacidade atual
+        DayOfWeek dayOfWeek = dia.getDayOfWeek();
+        int diaDaSemana = dayOfWeek.getValue()%7; // Índice do vetor (domingo = 0, segunda = 1, ..., sábado = 6)
+        Stack<LocalDate> datasBloqueadas = Arrays.stream(request.datasBloqueadas())
+                .sorted(Collections.reverseOrder()) // Inverte a ordem
+                .collect(Stack::new, Stack::push, Stack::addAll);
+        LocalDate proximaDataBloqueada = datasBloqueadas.pop(); //memoria de datas bloqueadas
 
-        // cenário 1:
+        for (Jogo jogo : jogos) {
+            // Procurar o próximo dia disponível
+            while (semana[diaDaSemana] == 0 && dia != proximaDataBloqueada) {
+                diaDaSemana = (diaDaSemana + 1) % 7; // Avançar para o próximo dia da semana
+                dia = dia.plusDays(1); // Incrementar a data
 
-        int numRodadas = jogos.size();
-        //para cada rodada
-        //
+                // Se voltamos ao domingo, reinicia a capacidade semanal
+                if (diaDaSemana == 0) {
+                    semana = semanaOriginal.clone(); // Reinicia os limites semanais
+                }
+            }
 
+            // Agendar o jogo no dia encontrado
+            jogo.setData(dia);
+            jogosAgendados.add(jogo);
+            semana[diaDaSemana]--; // Reduzir o limite de jogos para o dia atual
 
-        return jogos;
+        }
+        return jogosAgendados;
     }
 
-    public List<Rodada> smartSchedule(List<Rodada> rodadas, DtoDadosCampeonato request){
+
+    public List<Jogo> smartSchedule(List<Jogo> jogos, DtoDadosCampeonato request){
 
         //
-        return rodadas;
+        return jogos;
     }
 }

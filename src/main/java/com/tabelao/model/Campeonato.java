@@ -24,7 +24,7 @@ public class Campeonato {
         this.grupos = new ArrayList<>();
     }
 
-    public Campeonato(String nomeCampeonato, List<Equipe> equipes, int qtdeGrupos, int qtdeTurnosDentro, int qtdeTurnosFora){
+    public Campeonato(String nomeCampeonato, List<Equipe> equipes, int qtdeGrupos, int qtdeTurnosDentro, int qtdeTurnosFora) {
         this.nomeCampeonato = nomeCampeonato;
         this.qtdeGrupos = qtdeGrupos;
         this.qtdeTurnosDentro = qtdeTurnosDentro;
@@ -35,12 +35,13 @@ public class Campeonato {
         this.rodadas = new ArrayList<>();
     }
 
-    public Campeonato(String nomeCampeonato, List<Grupo> grupos){
+    public Campeonato(String nomeCampeonato, List<Grupo> grupos) {
         this.nomeCampeonato = nomeCampeonato;
         this.grupos = new ArrayList<>();
         this.rodadas = new ArrayList<>();
         this.tabela = new Tabela();
         this.grupos.addAll(grupos);
+
     }
 
     public List<Grupo> getGrupos(){
@@ -118,6 +119,14 @@ public class Campeonato {
     public void setQtdeTurnosFora(int qtdeTurnosFora) {
         this.qtdeTurnosFora = qtdeTurnosFora;
     }
+
+//    public int[] getSemana() {
+//        return semana;
+//    }
+//
+//    public void setSemana(int[] semana) {
+//        this.semana = semana;
+//    }
 
     @Override
     public String toString() {
